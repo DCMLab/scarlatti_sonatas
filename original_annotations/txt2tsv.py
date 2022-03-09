@@ -68,8 +68,8 @@ def line2labels(line, beat_unit=frac(1,4)):
     try:
         mn = int(elements[0][1:])
     except ValueError:
-        mn = elements[0]
-        if not re.match(r"m\d+[a-z]", mn):
+        mn = elements[0][1:]
+        if not re.match(r"\d+[a-z]", mn):
             print(line)
             raise
 
@@ -132,7 +132,7 @@ def txt2df(path):
     lines = load_txt(path)
     return lines2df(lines)
 
-if __name__ == ”__main__”:
+if __name__ == "__main__":
 
     SOURCE = '.'
     TARGET = '../harmonies'
@@ -143,6 +143,10 @@ if __name__ == ”__main__”:
             continue
         print(fname)
         df = txt2df(os.path.join(SOURCE, fname))
+        if fn in ('K018', 'K019', 'K022', 'K049'):
+            df.columns = ['mc', 'mc_onset', 'label']
+        if fn == 'K027':
+            df.mn -= 1
         tsv_path = os.path.join(TARGET, fn + '.tsv')
         df.to_csv(tsv_path, sep='\t', index=False)
         print("Written " + tsv_path)
