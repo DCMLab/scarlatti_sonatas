@@ -15,7 +15,7 @@ m10 1 V6  2.1 I(2)  2.2 I  3 V6  4.1 I(2)  4.2 I
 m11 1 ii  2.1 #viio6(2)/ii  2.2 viio6/ii  3 ii  4.1 #viio6(2)/ii  4.2 #viio6/ii
 m12 1 .f. V  3 V(64)
 m13 1 V  3 V(64)
-m14 1 V  3 V(64) 
+m14 1 V  3 V(64)
 m15 1 V  2.2 V(64) 3.1 V  3.2 V(64)  4.1 V  4.2 V(64)
 m16 1 V  2.2 V(64) 3.1 V  3.2 V(64)  4.1 V  4.2 V(64)
 m17 1 V  2.2 #viio65/iv6 3.1 iv6  4.2 #viio6
@@ -42,8 +42,8 @@ m36 1 V(4)  2.2 V  3 I
 m37 1 I  3 V6  4 V
 m38 1 vi  2.2 I6  3.1 IV  3.2 ii6  4.1 V(64)  4.2 V
 m39 1 I  2.2 I6  3.1 IV  3.2 ii6  4.1 V(64)  4.2 V
-m40 1 I  2.2 I6  3.1 IV  3.2 ii6 4..1 V(64)  4.2 V
-m41 1 I  2.2 I6  3.1 IV  3.2 ii6 4..1 V(64)  4.2 V
+m40 1 I  2.2 I6  3.1 IV  3.2 ii6 4.1 V(64)  4.2 V
+m41 1 I  2.2 I6  3.1 IV  3.2 ii6 4.1 V(64)  4.2 V
 m42 1 I  3 .g. iv
 m43 1 V  3 iv
 m44 1 V  2.2 V(64)  3 V  4 V7
@@ -55,19 +55,19 @@ m49 1 I  3 .d. #viio6  4 i
 m50 1 V43  3 i  4 V7
 m51 1 .Bb. iii  3 vi
 m52 1 ii  3 V  4 V7
-m53 1 I  3 IV  
+m53 1 I  3 IV
 m54 1 .bb. V  2.2 V(64)  3.1 V  3.2 V(64)  4.1 V7  4.2 V(64)
 m55 1 V  2.2 V(64)  3.1 V  3.2 V(64)  4.1 V7  4.2 V(64)
 m56 1 V  2.2 V(64)  3.1 V  3.2 V(64)  4.1 V7  4.2 V(64)
 m57 1 V 3 iv6 3.2 bvii 4.1 iv6 4.2 #viio6/iv
-m58 1.1 iv6  1.2 bvii  2.1 iv6  2.2 #viio/iv  3.1 iv6  3.2 bvii  4.1 iv6  4.2 #viio6/iv 
+m58 1.1 iv6  1.2 bvii  2.1 iv6  2.2 #viio/iv  3.1 iv6  3.2 bvii  4.1 iv6  4.2 #viio6/iv
 m59 1 iv6  3.1 V  3.2 V(64)  4.1 V  4.2 V(64)
 m60 1 V  2.2 V(64)  3.1 V  3.2 V(64)  4.1 V7  4.2 V(64)
 m61 1.1 V7  1.2 V(64)  2 V
 m62 1 .Bb. V  2 viio  3 I  4.1 ii6(5)  4.2 ii6
 m63 1 V(64)  2 V7  3 I  4 vi
 m64 1 V6  2 V7  3 I  4 #viio6/ii
-m65 1 IV @alt @none 2 V6/V  3 V  4 I6  
+m65 1 IV @alt @none 2 V6/V  3 V  4 I6
 m66 1.1 V(64)  1.2 V7  3.1 V(64)  3.2 V  4.1 I  4.2 vi
 m67 1.1 V6(7)  1.2 V6  2.1 V  2.2 V7  3.1 I(4)  3.2 I  4 #viio6/ii
 m68 1.1 ii6  1.2 IV  2.1 #viio/I  2.2 V6/V  3 V  4.1 I6  4.2 IV
