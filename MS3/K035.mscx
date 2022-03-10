@@ -174,7 +174,7 @@
           <Tempo>
             <tempo>2</tempo>
             <followText>1</followText>
-            <text><font size="12"/><b>Allegro</b></text>
+            <text><font size="12"></font><b>Allegro</b></text>
             </Tempo>
           <Rest>
             <durationType>16th</durationType>
@@ -2147,6 +2147,7 @@
         </Measure>
       <Measure len="1/4">
         <startRepeat/>
+        <irregular>1</irregular>
         <voice>
           <Rest>
             <durationType>16th</durationType>
