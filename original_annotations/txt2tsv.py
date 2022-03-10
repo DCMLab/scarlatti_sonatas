@@ -126,7 +126,7 @@ def lines2df(lines):
         mn, beat2label = line2labels(l, beat_unit)
         if mn is not None:
             vals.extend([(mn, beat, label) for beat, label in beat2label.items()])
-    return pd.DataFrame(vals, columns=['mn', 'mn_offset', 'label'])
+    return pd.DataFrame(vals, columns=['mn', 'mn_onset', 'label'])
 
 def txt2df(path):
     lines = load_txt(path)
