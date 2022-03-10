@@ -157,13 +157,13 @@
         <height>8.9</height>
         <Text>
           <style>Title</style>
-          <text><font size="24"/><b>Sonata</b></text>
+          <text><font size="24"></font><b>Sonata</b></text>
           </Text>
         <Text>
           <style>Composer</style>
           <align>right,top</align>
           <offset x="0" y="11.571"/>
-          <text><font size="12"/><b>D. Scarlatti
+          <text><font size="12"></font><b>D. Scarlatti
 K  36</b></text>
           </Text>
         </VBox>
@@ -180,7 +180,7 @@ K  36</b></text>
           <Tempo>
             <tempo>2</tempo>
             <followText>1</followText>
-            <text><font size="12"/><b>Allegro</b></text>
+            <text><font size="12"></font><b>Allegro</b></text>
             </Tempo>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -2109,6 +2109,7 @@ K  36</b></text>
           </voice>
         </Measure>
       <Measure>
+        <startRepeat/>
         <voice>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -5809,14 +5810,14 @@ K  36</b></text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            </Clef>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            </Clef>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
