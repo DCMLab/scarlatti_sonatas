@@ -1,8 +1,27 @@
-# annotation_workflow_template
+# Domenico Scarlatti - Harpsichord Sonatas
 
-This repo holds the current version of the DCML annotation workflow which is pulled by all subcorpus repos upon push to their main branch. 
+The harmonic annotations come from ancient times (hence harmony_version `0.0.0`)
+and have been handed down in the form of the TXT files contained in the folder
+`original_annotations`. A number of manual adjustments had to be made to allow
+their being written into the MuseScore files because their encoding is not very
+rigorous and was never algorithmically validated.
 
-Please note that the `meta_ corpora` branch should be used with collections of corpora.
+Apart from the syntactical inconsistencies and typical careless mistakes, the
+analyses look reasonable. However, since they predate last years' developments
+of the DCML standard, a couple of things will need to be corrected systematically,
+such as:
+
+* all modulations are expressed in absolute rather than relative terms;
+* repetition of identical labels;
+* the overuse of `@none` which, in this repertoire, can in principle always be avoided;
+* obvious syntax errors (e.g. `I(M7)`);
+* absence of an overarching harmonic rhythm as a guideline for a consistent level of detail;
+* cadence labels (for example, `QA` ('Quintabsatz') was partially used for what we would
+  label as `HC`);
+
+During the update, these points can be corrected tacitly. Individual commits with
+explanatory messages should be created for changes to the actual analysis.
+ 
 
 
 # Overview
