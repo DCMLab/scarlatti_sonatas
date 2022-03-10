@@ -8,7 +8,7 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 # Overview
 |file_name|measures|labels|standard|annotators|reviewers|
 |---------|-------:|-----:|--------|----------|---------|
-|K001     |      62|    97|0.0.0   |unknown   |         |
+|K001     |      31|    97|0.0.0   |unknown   |         |
 |K002     |      78|   158|0.0.0   |unknown   |         |
 |K003     |      94|   224|0.0.0   |unknown   |         |
 |K004     |      39|   171|0.0.0   |unknown   |         |
