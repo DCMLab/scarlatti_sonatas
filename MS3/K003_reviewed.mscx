@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision>3224f34</programRevision>
+  <programRevision/>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -116,7 +116,7 @@
     <metaTag name="pdf">https://imslp.org/wiki/Special:ReverseLookup/314042</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="reviewers">DK</metaTag>
+    <metaTag name="reviewers">DK, JH</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="typesetter">Tom Schreyer</metaTag>
@@ -6197,7 +6197,7 @@
             </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V}{</name>
+            <name>V|HC}</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
@@ -6208,6 +6208,11 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            <color r="0" g="85" b="0" a="255"/>
+            </Harmony>
           <Rest>
             <durationType>half</durationType>
             </Rest>
@@ -7294,7 +7299,7 @@
             </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(b94)/iv</name>
+            <name>V(94)/iv</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
@@ -7857,12 +7862,6 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iio6</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>ii6</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/4</fractions>
@@ -8417,6 +8416,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>VI</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I/VI</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -8433,7 +8438,7 @@
             </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III6-#viio6/iv</name>
+            <name>V6/VI-III6</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
@@ -8451,6 +8456,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iv</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi/VI-iv</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -8463,6 +8474,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i6</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V/VI-i6</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -8523,7 +8540,7 @@
             </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V}{</name>
+            <name>V|HC}</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
@@ -8534,6 +8551,11 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            <color r="0" g="85" b="0" a="255"/>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -8692,6 +8714,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V2-#viio64</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -8781,6 +8809,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V2-#viio64</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -9008,6 +9042,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>ii6</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iio6</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/4</fractions>
