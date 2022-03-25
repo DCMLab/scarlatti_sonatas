@@ -29,7 +29,7 @@ explanatory messages should be created for changes to the actual analysis.
 |---------|-------:|-----:|--------|--------------------------------------|---------|
 |K001     |      31|    97|0.0.0   |unknown                               |         |
 |K002     |      78|   146|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)|DK, JH   |
-|K003     |      94|   224|0.0.0   |unknown                               |         |
+|K003     |      94|   198|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)|DK, JH   |
 |K004     |      39|   171|0.0.0   |unknown                               |         |
 |K005     |      90|   129|0.0.0   |unknown                               |         |
 |K006     |      75|   120|0.0.0   |unknown                               |         |
