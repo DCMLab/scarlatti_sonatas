@@ -27,7 +27,7 @@ explanatory messages should be created for changes to the actual analysis.
 # Overview
 |file_name|measures|labels|standard|              annotators              |reviewers|
 |---------|-------:|-----:|--------|--------------------------------------|---------|
-|K001     |      31|    97|0.0.0   |unknown                               |         |
+|K001     |      31|    89|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)|DK, JH   |
 |K002     |      78|   146|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)|DK, JH   |
 |K003     |      94|   198|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)|DK, JH   |
 |K004     |      39|   171|0.0.0   |unknown                               |         |
