@@ -7399,7 +7399,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V[V</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -7414,14 +7414,21 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(4)</name>
+            <name>V(64)</name>
             </Harmony>
           <location>
-            <fractions>1/4</fractions>
+            <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7</name>
+            <name>V7(4)</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7]</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
