@@ -6754,7 +6754,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i(64)}</name>
+            <name>i(64)|EC}</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -6767,6 +6767,16 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/16</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
+          <location>
+            <fractions>1/16</fractions>
+            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i</name>
@@ -6780,16 +6790,6 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/16</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>|IAC}{</name>
-            </Harmony>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
