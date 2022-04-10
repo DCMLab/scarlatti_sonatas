@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision></programRevision>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -974,6 +974,8 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Beam>
+            </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
@@ -8653,13 +8655,13 @@
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I6/V</name>
-            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv/V</name>
+            </Harmony>
           <Rest>
             <durationType>16th</durationType>
             </Rest>
@@ -8715,10 +8717,6 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I6/V</name>
-            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -8738,6 +8736,10 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv/V</name>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -8814,6 +8816,10 @@
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -8831,7 +8837,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i6</name>
+            <name>i</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -8867,10 +8873,6 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i</name>
-            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
