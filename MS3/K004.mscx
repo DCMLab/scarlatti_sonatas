@@ -9061,7 +9061,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V[V}{</name>
+            <name>V[V|HC}{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -9649,7 +9649,14 @@
             <durationType>half</durationType>
             </Rest>
           <location>
-            <fractions>-1/4</fractions>
+            <fractions>-3/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio6/V</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
