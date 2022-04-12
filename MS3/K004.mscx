@@ -8440,6 +8440,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <StemDirection>up</StemDirection>
@@ -8460,6 +8464,10 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7/iv</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <StemDirection>up</StemDirection>
@@ -8520,7 +8528,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I6</name>
             </Harmony>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -8541,6 +8549,10 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii6</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
@@ -8549,6 +8561,10 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I64</name>
+            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -8567,6 +8583,10 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV6</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
@@ -8600,6 +8620,10 @@
         </Measure>
       <Measure len="15/16">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
@@ -8609,7 +8633,14 @@
               </Note>
             </Chord>
           <location>
-            <fractions>-1/4</fractions>
+            <fractions>-5/16</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            </Harmony>
+          <location>
+            <fractions>1/16</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
