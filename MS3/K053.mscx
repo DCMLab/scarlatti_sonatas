@@ -4203,6 +4203,9 @@
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <text>67</text>
+          </MeasureNumber>
         <voice>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -6734,7 +6737,7 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>D.I</name>
+            <name>D.I{</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -6811,7 +6814,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I|PAC}{</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -6888,7 +6891,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I|PAC}{</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -7718,7 +7721,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -7734,7 +7737,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i/i</name>
+            <name>i/i{</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -7980,7 +7983,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i/i</name>
+            <name>i/i}</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -7994,6 +7997,10 @@
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -8184,7 +8191,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I|PAC</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -8240,7 +8247,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -8302,7 +8309,7 @@
             </BarLine>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V.I</name>
+            <name>V.I{</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -8387,7 +8394,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I|PAC}{</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -8472,7 +8479,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I|PAC}{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -9053,7 +9060,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V|HC}</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -9069,7 +9076,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i64/i</name>
+            <name>i64/i{</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -9593,7 +9600,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i(9)/i</name>
+            <name>i(9)/i}</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -9629,7 +9636,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i6/i</name>
+            <name>i6/i{</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -9929,7 +9936,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i/i</name>
+            <name>i/i|EC</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -9985,7 +9992,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i/i</name>
+            <name>i/i|EC</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -10041,7 +10048,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I|PAC</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -10097,7 +10104,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I|PAC</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -10153,7 +10160,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
