@@ -15247,6 +15247,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V65/V</name>
+            <offset x="-0.1" y="3.5"/>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -15441,7 +15442,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I(7)</name>
+            <name>V65/iv</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -15454,10 +15455,6 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -15466,10 +15463,6 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio/ii</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
