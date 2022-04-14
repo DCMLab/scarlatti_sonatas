@@ -7734,7 +7734,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>a.i</name>
+            <name>i64/i</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -7750,7 +7750,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio6</name>
+            <name>iio6/i</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -7769,7 +7769,77 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio64</name>
+            <name>#viio43/i</name>
+            </Harmony>
+          <Chord>
+            <durationType>half</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i6/i</name>
+            </Harmony>
+          <Chord>
+            <durationType>half</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i64/i</name>
+            </Harmony>
+          <Chord>
+            <durationType>half</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iio6/i</name>
+            </Harmony>
+          <Chord>
+            <durationType>half</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio43/i</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -7802,72 +7872,10 @@
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
-          <Chord>
-            <durationType>half</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio6</name>
+            <name>i64/i</name>
             </Harmony>
-          <Chord>
-            <durationType>half</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio64</name>
-            </Harmony>
-          <Chord>
-            <durationType>half</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>50</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i6</name>
-            </Harmony>
-          <Chord>
-            <durationType>half</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            </Clef>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -7882,7 +7890,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio64</name>
+            <name>#viio64/i</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -7901,7 +7909,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V43</name>
+            <name>V43/i</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -7917,7 +7925,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i/i</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -7931,6 +7939,10 @@
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i64/i</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -7945,7 +7957,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio64</name>
+            <name>#viio64/i</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -7964,7 +7976,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V43</name>
+            <name>V43/i</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -7980,7 +7992,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i/i</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -7994,6 +8006,10 @@
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i64/i</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -8012,7 +8028,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv(2)</name>
+            <name>iv(9)/i</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -8028,7 +8044,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio6</name>
+            <name>iio64/i</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -8048,7 +8064,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7</name>
+            <name>V7/i</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -8080,7 +8096,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65</name>
+            <name>V65/i</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -8095,7 +8111,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7</name>
+            <name>V7/i</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -8111,7 +8127,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>A.I</name>
+            <name>I</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
