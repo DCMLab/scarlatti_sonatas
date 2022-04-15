@@ -15028,10 +15028,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V2/V</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -15059,10 +15055,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V6</name>
-            </Harmony>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/8</duration>
@@ -15083,10 +15075,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V2/iv</name>
-            </Harmony>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/8</duration>
@@ -15120,7 +15108,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i64</name>
+            <name>III6</name>
             </Harmony>
           </voice>
         </Measure>
@@ -15128,7 +15116,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio6-#viio64</name>
+            <name>iio6</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
