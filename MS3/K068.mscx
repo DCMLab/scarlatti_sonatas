@@ -7173,7 +7173,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio</name>
+            <name>ii</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -7186,6 +7186,10 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio</name>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -7242,7 +7246,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv</name>
+            <name>iv/i</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -7266,7 +7270,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i6</name>
+            <name>i6/i</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -7293,7 +7297,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio6</name>
+            <name>#viio6/i-iio/i</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -7317,7 +7321,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i/i</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -7341,7 +7345,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio6</name>
+            <name>ii%65/i</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -7351,10 +7355,6 @@
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iv</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
@@ -7369,7 +7369,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V2</name>
+            <name>V2-V2/i</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
