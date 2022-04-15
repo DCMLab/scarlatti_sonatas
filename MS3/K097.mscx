@@ -12864,10 +12864,14 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V</name>
-            </Harmony>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/8</duration>
@@ -12878,19 +12882,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
-            </Harmony>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V2</name>
+            <name>V7</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
