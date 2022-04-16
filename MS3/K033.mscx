@@ -9140,7 +9140,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio6(M4)</name>
+            <name>#viio43</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -9179,7 +9179,8 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii%65(7)</name>
+            <name>ii%65(9)-#viio43(112)</name>
+            <offset x="-5.92124" y="5.06991"/>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -9203,6 +9204,8 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V</name>
+            <minDistance>0.242555</minDistance>
+            <offset x="0.514891" y="6.12256"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
