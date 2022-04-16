@@ -12857,10 +12857,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>@none</name>
-            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -12906,7 +12902,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>g.i</name>
+            <name>i</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -13008,16 +13004,12 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>@none</name>
-            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv</name>
+            <name>iv/i</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -13029,7 +13021,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(64)</name>
+            <name>V(64)/i</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -13041,7 +13033,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V/i</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -13057,7 +13049,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>G.I</name>
+            <name>I/i</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
