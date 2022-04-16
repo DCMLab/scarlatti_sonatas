@@ -982,6 +982,12 @@
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <Fragment>
+              <y1>-2.47248</y1>
+              <y2>-1.47248</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -5371,7 +5377,7 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>a.i</name>
+            <name>e.i</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -5410,10 +5416,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -5449,7 +5451,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6(5)</name>
+            <name>V6(#7)</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -5534,7 +5536,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6(5)</name>
+            <name>V6(#7)</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -5777,7 +5779,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(4)</name>
+            <name>V(+4)</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
