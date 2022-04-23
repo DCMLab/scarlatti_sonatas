@@ -11588,10 +11588,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>@none</name>
-            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -11623,7 +11619,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv6(4)</name>
+            <name>i6(13)/iv</name>
             </Harmony>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -11635,7 +11631,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv6</name>
+            <name>i6/iv</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -11683,10 +11679,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>@none</name>
-            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -11716,6 +11708,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i6(13)/iv</name>
+            </Harmony>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -11726,7 +11722,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv6(4)iv6</name>
+            <name>i6/iv</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -11774,13 +11770,13 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>@noneV2/IV</name>
-            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2(9)/IV</name>
+            </Harmony>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -11824,7 +11820,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV6(4)</name>
+            <name>I6(13)/IV</name>
             </Harmony>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -11836,7 +11832,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV6</name>
+            <name>I6/IV</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -11884,13 +11880,13 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>@noneV2/IV</name>
-            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2(9)/IV</name>
+            </Harmony>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -11934,7 +11930,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV6(4)</name>
+            <name>I6(13)/IV</name>
             </Harmony>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -11946,7 +11942,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV6</name>
+            <name>I6/IV</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
