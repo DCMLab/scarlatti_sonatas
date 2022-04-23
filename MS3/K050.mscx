@@ -10964,7 +10964,8 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65-#viio</name>
+            <name>#viio-V6</name>
+            <offset x="-0.627957" y="3.37441"/>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -10996,7 +10997,8 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65-#viio</name>
+            <name>#viio-V65</name>
+            <offset x="-0.9" y="3.5"/>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -11017,6 +11019,8 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i</name>
+            <minDistance>-1.50946</minDistance>
+            <offset x="0" y="3.62957"/>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
