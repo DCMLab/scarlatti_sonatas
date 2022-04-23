@@ -7195,7 +7195,7 @@ K 55</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I6</name>
+            <name>ii6</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -7208,6 +7208,10 @@ K 55</b></text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(64)</name>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -7216,6 +7220,10 @@ K 55</b></text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -7230,7 +7238,7 @@ K 55</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii6</name>
+            <name>I</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
