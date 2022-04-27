@@ -31,7 +31,7 @@ explanatory messages should be created for changes to the actual analysis.
 |K002     |      78|   146|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK, JH   |
 |K003     |      94|   198|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK, JH   |
 |K004     |      39|   171|0.0.0   |unknown                                       |         |
-|K005     |      90|   129|0.0.0   |unknown                                       |         |
+|K005     |      90|   126|2.3.0   |unknown (0.0.0), Sylvie Tran (2.3.0)          |ST, JH   |
 |K006     |      75|    97|2.3.0   |unknown (0.0.0), Ehsan Mohagheghi Fard (2.3.0)|EMF, JH  |
 |K007     |     155|   270|0.0.0   |unknown                                       |         |
 |K008     |      47|   194|0.0.0   |unknown                                       |         |
