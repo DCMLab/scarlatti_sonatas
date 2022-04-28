@@ -7220,6 +7220,10 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -7235,7 +7239,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i(6)-VI6{</name>
+            <name>i(6)-VI6</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
