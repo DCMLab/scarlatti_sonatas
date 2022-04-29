@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision>3224f34</programRevision>
+  <programRevision/>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -116,7 +116,7 @@
     <metaTag name="pdf">https://imslp.org/wiki/Special:ReverseLookup/314042</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="reviewers">ST</metaTag>
+    <metaTag name="reviewers">ST, JH</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="typesetter">Tom Schreyer</metaTag>
@@ -6089,7 +6089,7 @@
             </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio6(6)</name>
+            <name>iio6(6)-iv(4)</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Rest>
@@ -6102,6 +6102,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iio6</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iio6-iv</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/4</fractions>
@@ -6625,17 +6631,20 @@
               </Note>
             </Chord>
           <location>
-            <fractions>-1/8</fractions>
+            <fractions>-1/4</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IVM7</name>
+            <color r="0" g="85" b="0" a="255"/>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>IV7</name>
             <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>IVM7</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           </voice>
         </Measure>
@@ -7027,6 +7036,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>v6</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6/ii-v6</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -7068,6 +7083,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V6/ii</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V65/ii</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -7154,6 +7175,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V6/V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V65/V</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -7198,6 +7225,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V6-V65</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V65</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -7505,6 +7538,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio6(6)</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VII6(6)-#viio6(6)</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -7520,6 +7559,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio6</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VII6-#viio6</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -7697,7 +7742,7 @@
             </Harmony>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i6}</name>
+            <name>i6</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
@@ -7741,11 +7786,6 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i{</name>
-            <color r="0" g="85" b="0" a="255"/>
-            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -7771,6 +7811,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i6</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
@@ -7873,6 +7919,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -8148,11 +8200,20 @@
               </Note>
             </Chord>
           <location>
-            <fractions>-1/8</fractions>
+            <fractions>-1/4</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iv7</name>
+            <color r="0" g="85" b="0" a="255"/>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv7</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           </voice>
         </Measure>
