@@ -43,7 +43,7 @@ explanatory messages should be created for changes to the actual analysis.
 |K014     |      43|   146|0.0.0   |unknown                                       |         |
 |K017     |     129|   236|0.0.0   |unknown                                       |         |
 |K018     |      52|   300|0.0.0   |unknown                                       |         |
-|K019     |      92|   221|0.0.0   |unknown                                       |         |
+|K019     |      92|   229|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
 |K020     |     102|   143|0.0.0   |unknown                                       |         |
 |K021     |     150|   265|0.0.0   |unknown                                       |         |
 |K022     |      78|   186|0.0.0   |unknown                                       |         |
