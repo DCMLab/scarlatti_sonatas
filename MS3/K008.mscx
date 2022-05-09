@@ -8560,7 +8560,7 @@
             </BarLine>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i.i6</name>
+            <name>i.i6{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -8668,6 +8668,10 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>}</name>
+            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -8677,7 +8681,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv.i6</name>
+            <name>iv.i6{</name>
             </Harmony>
           <Rest>
             <durationType>half</durationType>
@@ -9028,7 +9032,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i.III6</name>
+            <name>i.III6{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
