@@ -34,7 +34,7 @@ explanatory messages should be created for changes to the actual analysis.
 |K005     |      90|   126|2.3.0   |unknown (0.0.0), Sylvie Tran (2.3.0)          |ST, JH   |
 |K006     |      75|    97|2.3.0   |unknown (0.0.0), Ehsan Mohagheghi Fard (2.3.0)|EMF, JH  |
 |K007     |     155|   270|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK, AB   |
-|K008     |      47|   194|0.0.0   |unknown                                       |         |
+|K008     |      47|   183|2.3.0   |unknown, Sylvie Tran (2.3.0)                  |ST, AB   |
 |K009     |      60|   142|2.3.0   |unknown (0.0.0), Sylvie Tran (2.3.0)          |ST, JH   |
 |K010     |      75|   158|0.0.0   |unknown                                       |         |
 |K011     |      28|   111|0.0.0   |unknown                                       |         |
