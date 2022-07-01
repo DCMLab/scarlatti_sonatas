@@ -22,7 +22,9 @@ such as:
 During the update, these points can be corrected tacitly. Individual commits with
 explanatory messages should be created for changes to the actual analysis.
  
+## Origin
 
+The following sonatas have been typeset by Tom Schreyer: K003, K004, K005, K006, K007, K008, K009, K010, K011, K012, K013, K014, K017, K018, K019, K020, K021, K022, K025, K027, K031, K033, K037, K039, K040, K044, K046, K047, K049, K051, K052, K053, K054, K056, K057, K059, K061, K062, K065, K066, K067, K068, K069, K071, K072, K074, K075, K092, K094, K095, K096, K097, K099, K100
 
 # Overview
 |file_name|measures|labels|standard|                  annotators                  |reviewers|
