@@ -8356,6 +8356,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
@@ -8375,10 +8379,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i</name>
-            </Harmony>
           <Rest>
             <durationType>measure</durationType>
             <duration>1/2</duration>
