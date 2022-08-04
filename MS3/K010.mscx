@@ -7407,7 +7407,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv.ii</name>
+            <name>i</name>
             </Harmony>
           <Rest>
             <dots>1</dots>
@@ -7418,7 +7418,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>iv.i</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -7621,7 +7621,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III.ii</name>
+            <name>i</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
@@ -7632,7 +7632,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>III.I</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -7835,33 +7835,47 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I@none</name>
+            <name>I</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/8</duration>
             </Rest>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi</name>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>d.i(2)</name>
+            <name>i.#viio</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/8</duration>
             </Rest>
           <location>
-            <fractions>-5/16</fractions>
+            <fractions>-1/4</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6</name>
+            <name>i</name>
             </Harmony>
           <location>
-            <fractions>3/16</fractions>
+            <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
