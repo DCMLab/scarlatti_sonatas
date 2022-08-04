@@ -5354,7 +5354,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I[I</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -5364,16 +5364,27 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV</name>
+            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I(64)</name>
+            <name>ii</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -5395,7 +5406,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I(742)</name>
+            <name>viio</name>
             </Harmony>
           </voice>
         </Measure>
@@ -5403,7 +5414,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I]</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
