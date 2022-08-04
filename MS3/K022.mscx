@@ -7189,7 +7189,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>g.VI</name>
+            <name>VI</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
@@ -7200,7 +7200,21 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>@none</name>
+            <name>v</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>III</name>
             </Harmony>
           </voice>
         </Measure>
