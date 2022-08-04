@@ -7172,7 +7172,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(72)</name>
+            <name>V7(9)</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -7229,10 +7229,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <StemDirection>up</StemDirection>
@@ -7411,12 +7407,26 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>g.#viio6</name>
+            <name>iv.ii</name>
             </Harmony>
           <Rest>
             <dots>1</dots>
             <durationType>quarter</durationType>
             </Rest>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio</name>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -7611,12 +7621,26 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>F.viio6</name>
+            <name>III.ii</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/8</duration>
             </Rest>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio</name>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
