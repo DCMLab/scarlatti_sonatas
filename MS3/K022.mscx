@@ -6865,7 +6865,7 @@
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>1/2</duration>
+            <duration>2/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -10238,11 +10238,7 @@
             <harmonyType>1</harmonyType>
             <name>I]|PAC}</name>
             </Harmony>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
           <Chord>
-            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <Spanner type="Tie">
@@ -10258,7 +10254,6 @@
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>60</pitch>
@@ -10266,7 +10261,6 @@
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>55</pitch>
@@ -10285,7 +10279,6 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <pitch>48</pitch>
               <tpc>14</tpc>
@@ -10295,12 +10288,14 @@
         <voice>
           <Chord>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <pitch>36</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
           </voice>
         </Measure>
       </Staff>
