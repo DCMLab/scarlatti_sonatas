@@ -7583,19 +7583,26 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>b.i</name>
+            <name>b.V</name>
+            <offset x="4.54719e-15" y="3.68204"/>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
             <duration>5/8</duration>
             </Rest>
           <location>
-            <fractions>-1/8</fractions>
+            <fractions>-1/2</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio6(7)</name>
-            <offset x="-1.82041" y="4.04612"/>
+            <name>i6</name>
+            </Harmony>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio6(2)</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -7603,7 +7610,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio6</name>
-            <offset x="-1.09225" y="4.41021"/>
+            <offset x="-1.82041" y="4.04612"/>
             </Harmony>
           </voice>
         </Measure>
