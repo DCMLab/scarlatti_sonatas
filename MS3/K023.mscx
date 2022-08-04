@@ -13487,7 +13487,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>f.iio</name>
+            <name>iio/v</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -13506,7 +13506,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65</name>
+            <name>V65/v</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -13525,7 +13525,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i/v</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -13540,16 +13540,11 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V2/iv</name>
+            <name>ii2/iv-ii%2/iv</name>
+            <offset x="-3.86192" y="3.6768"/>
             </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -13572,7 +13567,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>e.V65(7)</name>
+            <name>#viio7/iv</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -13591,7 +13586,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65</name>
+            <name>V65/iv</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -13607,7 +13602,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i/iv</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -13622,16 +13617,10 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>D.ii%2</name>
+            <name>I.ii2-ii%2</name>
             </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -13654,7 +13643,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65(7)</name>
+            <name>viio7</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
