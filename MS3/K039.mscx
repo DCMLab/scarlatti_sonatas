@@ -10008,6 +10008,10 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -10025,7 +10029,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>@none</name>
+            <name>vi</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -10046,6 +10050,10 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio</name>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -10061,6 +10069,10 @@
               <tpc>22</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -10080,6 +10092,10 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii</name>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -10095,6 +10111,10 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iii</name>
+            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -10114,6 +10134,10 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV</name>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -10135,7 +10159,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V6-viio</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
