@@ -7466,6 +7466,10 @@ K 48</b></text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio</name>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -7484,7 +7488,9 @@ K 48</b></text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio43/vi</name>
+            <name>v.#viio43</name>
+            <minDistance>0.341765</minDistance>
+            <offset x="-0.474706" y="4.27444"/>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -7508,7 +7514,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>g.i6</name>
+            <name>i6</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -7585,7 +7591,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio6</name>
+            <name>iio65</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -7622,10 +7628,6 @@ K 48</b></text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V65</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
