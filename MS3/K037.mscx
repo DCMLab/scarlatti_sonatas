@@ -7748,7 +7748,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>g.VI6-i</name>
+            <name>v.VI6</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -7812,6 +7812,10 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio64/iv</name>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -7864,6 +7868,10 @@
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio64/III</name>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -7903,7 +7911,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/III</name>
+            <name>i6</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
