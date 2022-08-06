@@ -4649,10 +4649,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i</name>
-            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -4664,6 +4660,10 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i6</name>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -4672,16 +4672,6 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/16</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i6</name>
-            </Harmony>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7</name>
@@ -5099,7 +5089,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio6</name>
+            <name>v.#viio6</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
