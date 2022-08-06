@@ -7772,6 +7772,10 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio64/V</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -7812,10 +7816,6 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio64/iv</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -7824,6 +7824,12 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio64/iv</name>
+            <minDistance>0.5</minDistance>
+            <offset x="-1.78398" y="3.71232"/>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -7868,10 +7874,6 @@
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>viio64/III</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -7880,6 +7882,10 @@
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio64/III</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -10501,7 +10507,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>VI6</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -10525,6 +10531,10 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio64/V</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -10577,6 +10587,10 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio64/iv</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -10625,6 +10639,11 @@
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio64/III</name>
+            <offset x="-1.06692" y="3.5"/>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -10695,7 +10714,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio6/iv</name>
+            <name>#viio65/iv</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -10719,7 +10738,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iii6</name>
+            <name>III6</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -10773,7 +10792,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i6</name>
+            <name>i</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -10788,7 +10807,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6</name>
+            <name>#viio</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
