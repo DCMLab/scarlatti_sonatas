@@ -8341,7 +8341,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v6(7)</name>
+            <name>v6(2)</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -8383,7 +8383,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv6(7)</name>
+            <name>iv6(2)</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -8417,7 +8417,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III6(7)</name>
+            <name>III6</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -8432,10 +8432,6 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>III6</name>
-            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -8455,8 +8451,21 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio6(7)</name>
+            <name>bII6</name>
             </Harmony>
+          <Chord>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -8472,24 +8481,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio6</name>
-            </Harmony>
-          <Chord>
-            <dots>1</dots>
-            <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i6(7)</name>
+            <name>i6(2)</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
