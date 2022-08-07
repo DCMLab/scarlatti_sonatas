@@ -10621,10 +10621,6 @@
           <BarLine>
             <subtype>start-repeat</subtype>
             </BarLine>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>a.V****</name>
-            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -10642,6 +10638,10 @@
             <dots>1</dots>
             <durationType>quarter</durationType>
             </Rest>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
           <Rest>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -10652,12 +10652,19 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V****</name>
+            <name>V7</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/2</duration>
             </Rest>
+          <location>
+            <fractions>-3/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
