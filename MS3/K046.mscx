@@ -12439,7 +12439,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>B.V(4)</name>
+            <name>V(4)</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -12449,16 +12449,6 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/4</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V(64)</name>
@@ -12500,10 +12490,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V(64)</name>
-            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
@@ -12557,6 +12543,10 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV(+7)</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
