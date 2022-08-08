@@ -9789,10 +9789,16 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7</name>
             </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -9815,7 +9821,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>v.iv</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -9867,7 +9873,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(M7)/V</name>
+            <name>V(#7)</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -9893,11 +9899,15 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/V|HC</name>
+            <name>V</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
             </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -9936,7 +9946,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i6(7)</name>
+            <name>i6(+2)</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -10004,7 +10014,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(M7)/V</name>
+            <name>V7(#7)</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -10085,7 +10095,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i6(7)</name>
+            <name>i6(+2)</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -10153,7 +10163,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>g.V</name>
+            <name>V</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
