@@ -6908,10 +6908,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I</name>
-            </Harmony>
           <Rest>
             <durationType>half</durationType>
             </Rest>
@@ -6926,13 +6922,13 @@
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I6</name>
             </Harmony>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
@@ -6994,6 +6990,10 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -7020,10 +7020,6 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I6</name>
-            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -7116,7 +7112,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I(4)</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -7126,6 +7122,20 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I(^2)</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -7134,6 +7144,13 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            </Harmony>
           </voice>
         <voice>
           <Chord>
@@ -7182,7 +7199,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>Bb.V7</name>
+            <name>I.V7</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -7221,7 +7238,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii(64)</name>
+            <name>iv(64)</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -7236,14 +7253,14 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii(4)</name>
+            <name>iv(4)</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii</name>
+            <name>iv</name>
             </Harmony>
           </voice>
         </Measure>
@@ -7291,7 +7308,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii(24)</name>
+            <name>ii(94)</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -7306,14 +7323,14 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii(27)</name>
+            <name>ii(9#7)</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii(2)</name>
+            <name>ii(^9)</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
