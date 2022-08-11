@@ -7932,10 +7932,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V</name>
-            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -8047,10 +8043,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>@none</name>
-            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -8098,21 +8090,14 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio(6)</name>
+            <name>V6</name>
             </Harmony>
           <Rest>
             <dots>1</dots>
             <durationType>quarter</durationType>
             </Rest>
           <location>
-            <fractions>-1/4</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>viio</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
+            <fractions>-1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -8123,7 +8108,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV-ii6</name>
+            <name>IV</name>
             </Harmony>
           <Rest>
             <dots>1</dots>
