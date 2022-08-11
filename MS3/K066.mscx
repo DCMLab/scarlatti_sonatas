@@ -5602,25 +5602,18 @@
               </Note>
             </Chord>
           <location>
-            <fractions>-3/8</fractions>
+            <fractions>-1/4</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>I64(^2)</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(4)</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V(64)</name>
+            <name>I64</name>
             </Harmony>
           </voice>
         </Measure>
@@ -5628,7 +5621,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(64)</name>
+            <name>I</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -5675,14 +5668,14 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(4)</name>
+            <name>I64(^2)</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(64)</name>
+            <name>I64</name>
             </Harmony>
           </voice>
         </Measure>
