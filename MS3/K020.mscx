@@ -10699,7 +10699,26 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>@none</name>
+            <name>vi</name>
+            </Harmony>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii</name>
+            </Harmony>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
@@ -10711,7 +10730,26 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>@none</name>
+            <name>vi</name>
+            </Harmony>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/2</duration>
+            </Rest>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii</name>
+            </Harmony>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
@@ -10723,36 +10761,19 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>@none</name>
+            <name>vi</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>@none</name>
+            <name>ii</name>
             </Harmony>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>@none</name>
-            </Harmony>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>1/2</duration>
-            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -10772,6 +10793,10 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2</name>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
