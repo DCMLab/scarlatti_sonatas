@@ -10015,6 +10015,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>v6/i</name>
+            <offset x="1.28723" y="3.64287"/>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
@@ -10033,12 +10034,19 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V.</name>
+            <name>V.V</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
             <duration>1/2</duration>
             </Rest>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
