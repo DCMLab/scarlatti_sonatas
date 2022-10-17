@@ -38,7 +38,7 @@ explanatory messages should be created for changes to the actual analysis.
 |K009     |      60|   142|2.3.0   |unknown (0.0.0), Sylvie Tran (2.3.0)          |ST, JH   |
 |K010     |      75|   165|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK, ST   |
 |K011     |      28|   101|2.3.0   |unknown, Adrian Nagel (2.3.0)                 |DK       |
-|K012     |      48|   284|0.0.0   |unknown                                       |         |
+|K012     |      48|   281|2.3.0   |unknown, Adrian Nagel (2.3.0)                 |DK       |
 |K013     |     113|   240|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
 |K014     |      43|   146|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK, ST   |
 |K017     |     129|   198|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK, AB   |
