@@ -61,7 +61,7 @@ explanatory messages should be created for changes to the actual analysis.
 |K040     |      24|    53|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
 |K044     |     152|   208|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK, AB   |
 |K046     |     144|   272|0.0.0   |unknown                                       |         |
-|K047     |      75|   308|0.0.0   |unknown                                       |         |
+|K047     |      75|   309|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
 |K048     |     124|   290|0.0.0   |unknown                                       |         |
 |K049     |     120|   268|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK, AB   |
 |K050     |     159|   246|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK, AB   |
