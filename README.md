@@ -36,26 +36,26 @@ explanatory messages should be created for changes to the actual analysis.
 |K007     |     155|   270|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK, AB   |
 |K008     |      47|   183|2.3.0   |unknown, Sylvie Tran (2.3.0)                  |ST, AB   |
 |K009     |      60|   142|2.3.0   |unknown (0.0.0), Sylvie Tran (2.3.0)          |ST, JH   |
-|K010     |      75|   158|0.0.0   |unknown                                       |         |
-|K011     |      28|   111|0.0.0   |unknown                                       |         |
-|K012     |      48|   284|0.0.0   |unknown                                       |         |
+|K010     |      75|   165|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK, ST   |
+|K011     |      28|   101|2.3.0   |unknown, Adrian Nagel (2.3.0)                 |DK       |
+|K012     |      48|   281|2.3.0   |unknown, Adrian Nagel (2.3.0)                 |DK       |
 |K013     |     113|   240|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
-|K014     |      43|   146|0.0.0   |unknown                                       |         |
+|K014     |      43|   146|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK, ST   |
 |K017     |     129|   198|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK, AB   |
-|K018     |      52|   300|0.0.0   |unknown                                       |         |
+|K018     |      52|   272|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK, ST   |
 |K019     |      92|   229|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
-|K020     |     102|   143|0.0.0   |unknown                                       |         |
-|K021     |     150|   265|0.0.0   |unknown                                       |         |
-|K022     |      78|   186|0.0.0   |unknown                                       |         |
+|K020     |     102|   146|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK, ST   |
+|K021     |     150|   270|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK, ST   |
+|K022     |      78|   207|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK, ST   |
 |K023     |      70|   272|0.0.0   |unknown                                       |         |
 |K025     |      87|   271|0.0.0   |unknown                                       |         |
 |K027     |      67|   188|0.0.0   |unknown                                       |         |
 |K031     |     114|   218|0.0.0   |unknown                                       |         |
-|K032     |      24|    37|0.0.0   |unknown                                       |         |
+|K032     |      24|    39|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
 |K033     |     119|   117|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK, AB   |
-|K034     |      28|    73|0.0.0   |unknown                                       |         |
-|K035     |      40|   152|0.0.0   |unknown                                       |         |
-|K036     |      95|   245|0.0.0   |unknown                                       |         |
+|K034     |      28|    67|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
+|K035     |      40|   147|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
+|K036     |      95|   193|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
 |K037     |      52|   167|0.0.0   |unknown                                       |         |
 |K039     |      49|   209|0.0.0   |unknown                                       |         |
 |K040     |      24|    54|0.0.0   |unknown                                       |         |
