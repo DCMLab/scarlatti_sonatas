@@ -49,6 +49,7 @@
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="gantt/K067.html" height="600" width="100%"></iframe>
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="gantt/K068.html" height="600" width="100%"></iframe>
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="gantt/K069.html" height="600" width="100%"></iframe>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="gantt/K071.html" height="600" width="100%"></iframe>
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="gantt/K096.html" height="600" width="100%"></iframe>
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="gantt/K097.html" height="600" width="100%"></iframe>
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="gantt/K098.html" height="600" width="100%"></iframe>
