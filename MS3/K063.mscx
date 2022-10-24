@@ -3929,7 +3929,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(65)</name>
+            <name>V(64)</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -3966,6 +3966,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -5697,7 +5701,6 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iv/i-IV</name>
-            <minDistance>0.5</minDistance>
             <offset x="-1.46336" y="4.16405"/>
             </Harmony>
           <Chord>
