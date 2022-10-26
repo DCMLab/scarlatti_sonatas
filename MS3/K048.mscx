@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision/>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -67,20 +67,21 @@
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
-    <metaTag name="annotators">unknown</metaTag>
+    <metaTag name="annotators">unknown (0.0.0), Davor Krkljus (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1760</metaTag>
     <metaTag name="composed_start">1740</metaTag>
     <metaTag name="composer">Domenico Scarlatti</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2022-03-09</metaTag>
-    <metaTag name="harmony_version">0.0.0</metaTag>
+    <metaTag name="harmony_version">2.3.0</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
+    <metaTag name="reviewers">DK</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="typesetter">Johannes Hentschel</metaTag>
@@ -150,6 +151,12 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <program value="0"/>
+          <controller ctrl="7" value="101"/>
+          <controller ctrl="10" value="63"/>
+          <synti>Fluid</synti>
+          </Channel>
+        <Channel name="harmony">
           <program value="0"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
@@ -5681,14 +5688,6 @@ K 48</b></text>
     <Staff id="2">
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>c.i</name>
-            </Harmony>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <KeySig>
             <accidental>-3</accidental>
             <mode>minor</mode>
@@ -5697,6 +5696,14 @@ K 48</b></text>
             <sigN>3</sigN>
             <sigD>8</sigD>
             </TimeSig>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>c.i{</name>
+            </Harmony>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/8</duration>
@@ -5707,7 +5714,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i(6)</name>
+            <name>i(13)</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -5746,7 +5753,7 @@ K 48</b></text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>i-V</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -5766,7 +5773,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv6</name>
+            <name>VI-iv6</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -5803,13 +5810,6 @@ K 48</b></text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/16</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -5927,10 +5927,6 @@ K 48</b></text>
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i6</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -6025,45 +6021,6 @@ K 48</b></text>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V</name>
-            </Harmony>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iv6</name>
-            </Harmony>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>68</pitch>
-              <tpc>10</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
               <pitch>68</pitch>
               <tpc>10</tpc>
               </Note>
@@ -6128,8 +6085,43 @@ K 48</b></text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV6</name>
+            <name>iv6</name>
             </Harmony>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V|HC}{</name>
+            </Harmony>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -6141,10 +6133,6 @@ K 48</b></text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio6</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -6183,10 +6171,6 @@ K 48</b></text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i6</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -6222,10 +6206,6 @@ K 48</b></text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iv6</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -6240,7 +6220,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VII</name>
+            <name>III.V</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -6265,10 +6245,6 @@ K 48</b></text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>VII6</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -6283,7 +6259,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III</name>
+            <name>I</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -6304,10 +6280,6 @@ K 48</b></text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -6322,7 +6294,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>Eb.V</name>
+            <name>V7}{</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -6359,10 +6331,6 @@ K 48</b></text>
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -6404,93 +6372,6 @@ K 48</b></text>
             <Note>
               <pitch>67</pitch>
               <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>IV6</name>
-            </Harmony>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>IV6</name>
-            </Harmony>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V</name>
-            </Harmony>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>IV6(7)</name>
-            </Harmony>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
               </Note>
             </Chord>
           <Harmony>
@@ -6513,6 +6394,85 @@ K 48</b></text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi</name>
+            </Harmony>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -6538,93 +6498,6 @@ K 48</b></text>
             <Note>
               <pitch>67</pitch>
               <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V6</name>
-            </Harmony>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>IV6</name>
-            </Harmony>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V</name>
-            </Harmony>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>IV6(7)</name>
-            </Harmony>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
               </Note>
             </Chord>
           <Harmony>
@@ -6647,56 +6520,9 @@ K 48</b></text>
               <tpc>13</tpc>
               </Note>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
-            </Harmony>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V6</name>
-            </Harmony>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>IV6</name>
+            <name>vi</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -6720,757 +6546,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
-            </Harmony>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I6</name>
-            </Harmony>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V</name>
-            </Harmony>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V6</name>
-            </Harmony>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>@none</name>
-            </Harmony>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I</name>
-            </Harmony>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I6</name>
-            </Harmony>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V</name>
-            </Harmony>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V6</name>
-            </Harmony>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>@none</name>
-            </Harmony>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I</name>
-            </Harmony>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I6</name>
-            </Harmony>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V</name>
-            </Harmony>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V6</name>
-            </Harmony>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>@none</name>
-            </Harmony>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>V7</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -7491,10 +6567,6 @@ K 48</b></text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>IV6(7)</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -7509,6 +6581,49 @@ K 48</b></text>
             <Note>
               <pitch>63</pitch>
               <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            </Harmony>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Harmony>
@@ -7531,6 +6646,799 @@ K 48</b></text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi</name>
+            </Harmony>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V|HC}{</name>
+            </Harmony>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            </Harmony>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            </Harmony>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            </Harmony>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -7560,7 +7468,7 @@ K 48</b></text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6</name>
+            <name>viio</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -7580,7 +7488,9 @@ K 48</b></text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio43/vi</name>
+            <name>v.#viio43</name>
+            <minDistance>0.341765</minDistance>
+            <offset x="-0.474706" y="4.27444"/>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -7604,7 +7514,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>g.i6</name>
+            <name>i6</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -7681,7 +7591,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio6</name>
+            <name>iio65</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -7718,10 +7628,6 @@ K 48</b></text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V65</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -7744,7 +7650,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V7}{</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -7784,10 +7690,6 @@ K 48</b></text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -7888,7 +7790,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V7</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -7928,10 +7830,6 @@ K 48</b></text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -8025,7 +7923,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V7</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -8065,10 +7963,6 @@ K 48</b></text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -8162,7 +8056,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V|HC}{</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -8463,7 +8357,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VI7</name>
+            <name>VIM7</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -8646,7 +8540,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i|PAC}{</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -8894,7 +8788,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i|PAC}{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -8904,14 +8798,14 @@ K 48</b></text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i6</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i6</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -9008,7 +8902,7 @@ K 48</b></text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v6(2)</name>
+            <name>v6(+4)</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -9032,7 +8926,7 @@ K 48</b></text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv</name>
+            <name>VI-iv6</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -9099,7 +8993,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i|PAC}{</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -9226,7 +9120,7 @@ K 48</b></text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v6(2)</name>
+            <name>v6(+4)</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -9245,7 +9139,7 @@ K 48</b></text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv6</name>
+            <name>VI-iv6</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -9308,7 +9202,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i|PAC}{</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -9627,7 +9521,7 @@ K 48</b></text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(74)</name>
+            <name>V(64)</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -9655,7 +9549,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i|PAC}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -9672,7 +9566,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>c.V7-#viio6</name>
+            <name>i.V43{</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
@@ -9888,6 +9782,41 @@ K 48</b></text>
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V</name>
@@ -9929,7 +9858,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(4)</name>
+            <name>V</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -9942,16 +9871,6 @@ K 48</b></text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/16</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V</name>
-            </Harmony>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iv6</name>
@@ -9978,7 +9897,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(4)</name>
+            <name>V|HC}</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -9991,68 +9910,9 @@ K 48</b></text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/16</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
-            </Harmony>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iv6</name>
-            </Harmony>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>68</pitch>
-              <tpc>10</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>68</pitch>
-              <tpc>10</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V(4)</name>
-            </Harmony>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <location>
-            <fractions>-1/16</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V</name>
-            </Harmony>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>f.@none</name>
+            <name>iv.#viio65{</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -10082,10 +9942,6 @@ K 48</b></text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio65(7)</name>
-            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -10108,16 +9964,6 @@ K 48</b></text>
               <tpc>9</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/16</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio65</name>
-            </Harmony>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -10156,7 +10002,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio65(7)</name>
+            <name>#viio65</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -10180,16 +10026,6 @@ K 48</b></text>
               <tpc>9</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/16</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio65</name>
-            </Harmony>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -10228,7 +10064,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio65(7)</name>
+            <name>#viio65</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -10246,16 +10082,6 @@ K 48</b></text>
               <tpc>9</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/16</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio65</name>
-            </Harmony>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V</name>
@@ -10273,7 +10099,7 @@ K 48</b></text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio</name>
+            <name>V6</name>
             </Harmony>
           </voice>
         <voice>
@@ -10341,7 +10167,7 @@ K 48</b></text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65</name>
+            <name>V6</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -10388,7 +10214,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>V7}{</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -10409,10 +10235,6 @@ K 48</b></text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V65</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -10432,10 +10254,6 @@ K 48</b></text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V65</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -10469,76 +10287,6 @@ K 48</b></text>
             <Note>
               <pitch>65</pitch>
               <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V65</name>
-            </Harmony>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i</name>
-            </Harmony>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V</name>
-            </Harmony>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -10574,8 +10322,70 @@ K 48</b></text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65</name>
+            <name>i</name>
             </Harmony>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -10621,7 +10431,7 @@ K 48</b></text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio</name>
+            <name>V6</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -10668,7 +10478,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V|HC}{</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -10747,10 +10557,6 @@ K 48</b></text>
               </Note>
             </Chord>
           <endTuplet/>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V6</name>
-            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -10833,10 +10639,6 @@ K 48</b></text>
               </Note>
             </Chord>
           <endTuplet/>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i6</name>
-            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -10874,10 +10676,6 @@ K 48</b></text>
               </Note>
             </Chord>
           <endTuplet/>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>@none</name>
-            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -11000,10 +10798,6 @@ K 48</b></text>
               </Note>
             </Chord>
           <endTuplet/>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V6</name>
-            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -11086,10 +10880,6 @@ K 48</b></text>
               </Note>
             </Chord>
           <endTuplet/>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i6</name>
-            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -11127,10 +10917,6 @@ K 48</b></text>
               </Note>
             </Chord>
           <endTuplet/>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>@none</name>
-            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -11253,10 +11039,6 @@ K 48</b></text>
               </Note>
             </Chord>
           <endTuplet/>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V6</name>
-            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -11300,7 +11082,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>c.iv</name>
+            <name>i|IAC}{</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -11376,10 +11158,6 @@ K 48</b></text>
               </Note>
             </Chord>
           <endTuplet/>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iv6</name>
-            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -11423,7 +11201,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VII7</name>
+            <name>i.V/III</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -11499,10 +11277,6 @@ K 48</b></text>
               </Note>
             </Chord>
           <endTuplet/>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>VII65</name>
-            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -11622,10 +11396,6 @@ K 48</b></text>
               </Note>
             </Chord>
           <endTuplet/>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>III6</name>
-            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -11669,7 +11439,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VI7</name>
+            <name>VIM7</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -11745,10 +11515,6 @@ K 48</b></text>
               </Note>
             </Chord>
           <endTuplet/>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V65</name>
-            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -11818,8 +11584,8 @@ K 48</b></text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -11855,8 +11621,8 @@ K 48</b></text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -11868,10 +11634,6 @@ K 48</b></text>
               </Note>
             </Chord>
           <endTuplet/>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iio6</name>
-            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -11896,8 +11658,8 @@ K 48</b></text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -11919,7 +11681,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V7}{</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -11998,266 +11760,6 @@ K 48</b></text>
               </Note>
             </Chord>
           <endTuplet/>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7</name>
-            </Harmony>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Beam>
-            <StemDirection>down</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i</name>
-            </Harmony>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Beam>
-            <StemDirection>down</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V6</name>
-            </Harmony>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Beam>
-            <StemDirection>down</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i</name>
-            </Harmony>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Beam>
-            <StemDirection>down</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V</name>
-            </Harmony>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Beam>
-            <StemDirection>down</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Beam>
-            <StemDirection>down</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7</name>
-            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -12431,7 +11933,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V7</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -12510,10 +12012,6 @@ K 48</b></text>
               </Note>
             </Chord>
           <endTuplet/>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7</name>
-            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -12687,7 +12185,259 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V7</name>
+            </Harmony>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6</name>
+            </Harmony>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V|HC}{</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -13170,7 +12920,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III7</name>
+            <name>IIIM7</name>
             </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -13204,8 +12954,8 @@ K 48</b></text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <endTuplet/>
@@ -13241,8 +12991,8 @@ K 48</b></text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <endTuplet/>
@@ -13278,8 +13028,8 @@ K 48</b></text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <endTuplet/>
@@ -13649,7 +13399,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i|PAC}{</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -13686,10 +13436,6 @@ K 48</b></text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i7</name>
-            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -13895,7 +13641,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i|PAC}{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -13914,12 +13660,12 @@ K 48</b></text>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
-              </Note>
-            <Note>
               <pitch>75</pitch>
               <tpc>11</tpc>
+              </Note>
+            <Note>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           </voice>
@@ -13937,12 +13683,12 @@ K 48</b></text>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>74</pitch>
-              <tpc>16</tpc>
-              </Note>
-            <Note>
               <pitch>77</pitch>
               <tpc>13</tpc>
+              </Note>
+            <Note>
+              <pitch>80</pitch>
+              <tpc>10</tpc>
               </Note>
             </Chord>
           <Harmony>
@@ -13953,12 +13699,12 @@ K 48</b></text>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
-              </Note>
-            <Note>
               <pitch>75</pitch>
               <tpc>11</tpc>
+              </Note>
+            <Note>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Harmony>
@@ -13969,15 +13715,12 @@ K 48</b></text>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
-              </Note>
-            <Note>
               <pitch>74</pitch>
               <tpc>16</tpc>
+              </Note>
+            <Note>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
               </Note>
             </Chord>
           </voice>
@@ -14005,7 +13748,7 @@ K 48</b></text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v6(2)</name>
+            <name>v6(+4)</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -14025,7 +13768,7 @@ K 48</b></text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv6</name>
+            <name>VI-iv6</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -14092,7 +13835,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i|PAC}{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -14104,7 +13847,7 @@ K 48</b></text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio6(7)</name>
+            <name>#viio6</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -14115,7 +13858,7 @@ K 48</b></text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv</name>
+            <name>i6</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -14140,12 +13883,12 @@ K 48</b></text>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            <Note>
               <pitch>65</pitch>
               <tpc>13</tpc>
+              </Note>
+            <Note>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
               </Note>
             </Chord>
           <Harmony>
@@ -14156,12 +13899,12 @@ K 48</b></text>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            <Note>
               <pitch>63</pitch>
               <tpc>11</tpc>
+              </Note>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Harmony>
@@ -14172,15 +13915,12 @@ K 48</b></text>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              </Note>
-            <Note>
               <pitch>62</pitch>
               <tpc>16</tpc>
+              </Note>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
               </Note>
             </Chord>
           </voice>
@@ -14208,7 +13948,7 @@ K 48</b></text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v6(2)</name>
+            <name>v6(+4)</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -14228,7 +13968,7 @@ K 48</b></text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv6</name>
+            <name>VI-iv6</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -14291,7 +14031,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i|PAC}{</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -14629,7 +14369,7 @@ K 48</b></text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i|PAC}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
