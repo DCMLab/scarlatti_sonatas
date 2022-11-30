@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision/>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -10,11 +10,7 @@
       <pageWidth>8.27007</pageWidth>
       <pageHeight>11.6901</pageHeight>
       <pagePrintableWidth>7.48267</pagePrintableWidth>
-      <pageEvenLeftMargin>0.393701</pageEvenLeftMargin>
-      <pageOddLeftMargin>0.393701</pageOddLeftMargin>
-      <pageEvenTopMargin>0.393701</pageEvenTopMargin>
       <pageEvenBottomMargin>0.787403</pageEvenBottomMargin>
-      <pageOddTopMargin>0.393701</pageOddTopMargin>
       <pageOddBottomMargin>0.787403</pageOddBottomMargin>
       <lyricsMinDistance>0.25</lyricsMinDistance>
       <lyricsDashYposRatio>0.6</lyricsDashYposRatio>
@@ -102,20 +98,21 @@
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
-    <metaTag name="annotators">unknown</metaTag>
+    <metaTag name="annotators">unknown (0.0.0), Davor Krkljus (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1760</metaTag>
     <metaTag name="composed_start">1740</metaTag>
     <metaTag name="composer">Domenico Scarlatti</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2018-01-15</metaTag>
-    <metaTag name="harmony_version">0.0.0</metaTag>
+    <metaTag name="harmony_version">2.3.0</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
+    <metaTag name="reviewers">DK</metaTag>
     <metaTag name="source">https://musescore.com/score/4891183</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="typesetter">https://musescore.com/user/901466</metaTag>
@@ -136,7 +133,7 @@
         <defaultClef>F</defaultClef>
         </Staff>
       <trackName>Piano</trackName>
-      <Instrument>
+      <Instrument id="piano">
         <longName>Piano</longName>
         <shortName>Pno.</shortName>
         <trackName>Piano</trackName>
@@ -175,6 +172,10 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <program value="0"/>
+          <synti>Fluid</synti>
+          </Channel>
+        <Channel name="harmony">
           <program value="0"/>
           <synti>Fluid</synti>
           </Channel>
@@ -5279,7 +5280,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>b.i</name>
+            <name>b.i{</name>
             </Harmony>
           <Rest>
             <offset x="0" y="-2"/>
@@ -5293,25 +5294,18 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               </Note>
             </Chord>
           <location>
-            <fractions>-1/4</fractions>
+            <fractions>-1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v6(42)</name>
+            <name>VI</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio64(53)</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iio64</name>
+            <name>ii%43</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -5422,7 +5416,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i(4)</name>
+            <name>i(64)}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -5480,7 +5474,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio6</name>
+            <name>#viio6{</name>
             </Harmony>
           <Rest>
             <offset x="0" y="-3"/>
@@ -5488,7 +5482,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio43</name>
+            <name>#viio43</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -5499,13 +5493,6 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </Chord>
           <location>
             <fractions>-1/4</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V65(7)</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -5568,19 +5555,9 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6(4)</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V43(75)/v</name>
+            <name>V43/v</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -5596,10 +5573,6 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V43/v</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -5644,7 +5617,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v(64)</name>
+            <name>i(64)/v</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -5662,7 +5635,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>i/v</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -5677,11 +5650,15 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>@none</name>
+            <name>VI/v</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
             </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii%43/v</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -5722,7 +5699,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(64)/V</name>
+            <name>V(64)/v</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -5740,7 +5717,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V/V</name>
+            <name>V/v</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -5761,7 +5738,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/V</name>
+            <name>V7/v</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -5796,7 +5773,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(4)</name>
+            <name>i(64)/v}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -5834,6 +5811,10 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7{</name>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -5849,13 +5830,6 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>24</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>0</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7</name>
-            </Harmony>
           </voice>
         <voice>
           <Chord>
@@ -5872,7 +5846,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i(2)</name>
+            <name>i(9)</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -6030,7 +6004,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv(2)</name>
+            <name>iv(9)</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -6060,7 +6034,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VII</name>
+            <name>VI/iv</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6078,7 +6052,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio64/iv</name>
+            <name>ii%43/iv</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6120,7 +6094,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(64)</name>
+            <name>V(64)/iv</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6138,7 +6112,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V/iv</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -6157,7 +6131,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7</name>
+            <name>V7/iv</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -6192,7 +6166,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv(4)</name>
+            <name>i(64)/iv}{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -6211,7 +6185,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv</name>
+            <name>i/iv</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6229,7 +6203,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio6/III</name>
+            <name>viio6/III</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -6254,7 +6228,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III6</name>
+            <name>I6/III</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6346,7 +6320,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v</name>
+            <name>v6</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6357,7 +6331,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv6(7)</name>
+            <name>iv6</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -6366,16 +6340,6 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iv6</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
@@ -6456,7 +6420,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio64</name>
+            <name>ii%43</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6467,7 +6431,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V64</name>
+            <name>V(64)</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -6542,7 +6506,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i6(7)</name>
+            <name>i6(2)}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -6576,15 +6540,11 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio6(7)</name>
+            <name>#viio6{</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
             </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio6</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -6769,7 +6729,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III6</name>
+            <name>I6/III}</name>
             </Harmony>
           <Rest>
             <offset x="0" y="-0.84937"/>
@@ -6778,7 +6738,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio6/III</name>
+            <name>viio6/III</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -6827,7 +6787,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio6(4)</name>
+            <name>#viio6{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -6839,16 +6799,6 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>24</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio6</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i</name>
@@ -7056,7 +7006,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv(64)</name>
+            <name>i(64)/iv</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -7077,7 +7027,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv</name>
+            <name>i/iv</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -7098,19 +7048,12 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio6(7)</name>
+            <name>#viio6</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio6</name>
-            </Harmony>
           </voice>
         <voice>
           <Chord>
@@ -7141,11 +7084,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i(4)</name>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V(64)</name>
+            <name>i(64)</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -7168,17 +7107,9 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             <harmonyType>1</harmonyType>
             <name>i</name>
             </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V</name>
-            </Harmony>
           <location>
             <fractions>1/8</fractions>
             </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>v6</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -7188,11 +7119,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv6(7)</name>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iio64</name>
+            <name>iv6</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -7201,16 +7128,6 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iv6</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
@@ -7221,7 +7138,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(64)</name>
+            <name>V(64)}{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -7256,40 +7173,8 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio6</name>
+            <name>#viio2</name>
             </Harmony>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>54</pitch>
-              <tpc>20</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>66</pitch>
-              <tpc>20</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -7338,7 +7223,57 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv</name>
+            <name>#viio2</name>
+            </Harmony>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(64)</name>
+            </Harmony>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>54</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio2</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -7386,6 +7321,10 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i6</name>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -7429,7 +7368,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i6(4)</name>
+            <name>i</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -7438,51 +7377,13 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i6</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(4)</name>
-            </Harmony>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>42</pitch>
-              <tpc>20</tpc>
-              </Note>
-            </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V|HC}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -7501,10 +7402,23 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V</name>
-            </Harmony>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>42</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -7527,7 +7441,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </BarLine>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>{</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -7567,7 +7481,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(4)/V</name>
+            <name>ii</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -7576,16 +7490,6 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>21</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>v/V</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7</name>
@@ -7627,7 +7531,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i}{</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -7640,25 +7544,18 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               </Note>
             </Chord>
           <location>
-            <fractions>-1/4</fractions>
+            <fractions>-1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III6</name>
+            <name>VI</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio43(75)</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iio43</name>
+            <name>ii%43</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -7721,7 +7618,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7</name>
+            <name>v7</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -7732,7 +7629,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(6)/iv</name>
+            <name>V/iv</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -7744,13 +7641,6 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>23</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V/iv</name>
-            </Harmony>
           </voice>
         <voice>
           <Chord>
@@ -7773,7 +7663,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv</name>
+            <name>iv}{</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -7783,10 +7673,16 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i6</name>
             </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -7800,7 +7696,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio6(7)</name>
+            <name>#viio6</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -7809,13 +7705,6 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>21</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio6</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -7845,14 +7734,14 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v6</name>
+            <name>i6/v</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio6(5)/v</name>
+            <name>#viio6/v</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -7868,10 +7757,6 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio6/v</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -7915,7 +7800,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>f#.i</name>
+            <name>i/v}{</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -7931,7 +7816,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v</name>
+            <name>i6/ii</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -7947,7 +7832,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio6(7)/v</name>
+            <name>#viio6/ii</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -7960,13 +7845,6 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>23</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio6/v</name>
-            </Harmony>
           </voice>
         <voice>
           <Chord>
@@ -7990,7 +7868,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v</name>
+            <name>i/ii</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -8005,7 +7883,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III6</name>
+            <name>I6/VII</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -8023,7 +7901,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(64)/III</name>
+            <name>V(64)/VII</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -8037,7 +7915,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V/III</name>
+            <name>V/VII</name>
             </Harmony>
           </voice>
         </Measure>
@@ -8045,7 +7923,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>b.i6</name>
+            <name>i6</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -8055,10 +7933,16 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv</name>
+            <name>iv7</name>
             </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -8319,7 +8203,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i6</name>
+            <name>i6}{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -8345,7 +8229,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i6</name>
+            <name>i</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -8371,7 +8255,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv6(5)</name>
+            <name>iv6</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -8384,20 +8268,13 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iv6</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v7</name>
+            <name>iio/iv</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -8459,16 +8336,6 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>VII7</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>III</name>
@@ -8480,16 +8347,6 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>III7</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>VI</name>
@@ -8517,13 +8374,6 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>VI7</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -8548,16 +8398,6 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iio7</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V</name>
@@ -8618,7 +8458,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i}{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -8636,7 +8476,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio6(7)</name>
+            <name>#viio6</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -8645,13 +8485,6 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>21</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio6</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -8686,6 +8519,10 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2/iv</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -8726,7 +8563,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv</name>
+            <name>i/iv</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -8735,10 +8572,6 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iv</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -8748,7 +8581,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio6(7)/iv</name>
+            <name>#viio6/iv</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -8757,20 +8590,13 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio6/iv</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv6</name>
+            <name>i6/iv</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -8778,12 +8604,22 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv</name>
+            <name>i/iv</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV2</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio6</name>
@@ -8907,7 +8743,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i(42)</name>
+            <name>i</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -8916,13 +8752,6 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i</name>
-            </Harmony>
           </voice>
         <voice>
           <Chord>
@@ -8948,7 +8777,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio6</name>
+            <name>#viio6}</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -8969,21 +8798,14 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio6</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
             <name>V7</name>
             </Harmony>
           <location>
-            <fractions>1/8</fractions>
+            <fractions>1/4</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i(42)</name>
+            <name>i</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -8992,13 +8814,6 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i</name>
-            </Harmony>
           </voice>
         <voice>
           <Chord>
@@ -9046,7 +8861,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv</name>
+            <name>iv{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -9059,16 +8874,6 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iv7</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>VII</name>
@@ -9092,16 +8897,6 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>VII7</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>III</name>
@@ -9118,13 +8913,6 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>III7</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -9145,16 +8933,6 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>VI7</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iio</name>
@@ -9170,16 +8948,6 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>21</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>ioo7</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V</name>
@@ -9195,20 +8963,13 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i}{</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -9221,25 +8982,18 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               </Note>
             </Chord>
           <location>
-            <fractions>-1/4</fractions>
+            <fractions>-1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v6</name>
+            <name>VI</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio64(73)</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iio64</name>
+            <name>ii%43</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -9350,7 +9104,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7(2)</name>
+            <name>V7(9)</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -9467,7 +9221,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V|HC}{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -9518,7 +9272,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VI</name>
+            <name>#viio64</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -9528,16 +9282,6 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio64</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -9596,6 +9340,10 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio</name>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -9607,6 +9355,10 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
               <tpc>24</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio6/V</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -9719,16 +9471,12 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv(6)</name>
+            <name>iio6</name>
             </Harmony>
           <Rest>
             <offset x="0" y="-2"/>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iv</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -9780,7 +9528,7 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i(4)</name>
+            <name>i(64)}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -9795,16 +9543,12 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i|PAC</name>
             </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i</name>
-            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -9859,10 +9603,6 @@ Paris: Heugel, 1979 H. 32522 (imslp #353942)</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
