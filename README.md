@@ -96,3 +96,6 @@ explanatory messages should be created for changes to the actual analysis.
 |K098     |     113|   165|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK, AB   |
 |K099     |      86|   175|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
 |K100     |      50|   144|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
+
+
+*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.2.2.*

@@ -1,0 +1,343 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw#",
+    {
+      "@language": "en "
+    }
+  ],
+  "dc:title": "Note tables for scarlatti_sonatas",
+  "dialect": {
+    "delimiter": "\t"
+  },
+  "dc:description": "One feature matrix per score, containing one row per note head. Not every row represents an onset because note heads may be tied together (see column 'tied'). For more information, please refer to the docs at https://johentsch.github.io/ms3/columns",
+  "dc:created": "2023-02-09T20:01:45",
+  "dc:creator": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "SoftwareApplication",
+      "@id": "https://github.com/johentsch/ms3",
+      "name": "ms3",
+      "description": "A parser for MuseScore 3 files.",
+      "author": {
+        "name": "Johannes Hentschel",
+        "@id": "https://orcid.org/0000-0002-1986-9545"
+      },
+      "softwareVersion": "1.2.2"
+    }
+  ],
+  "tables": [
+    {
+      "url": "K001.tsv"
+    },
+    {
+      "url": "K002.tsv"
+    },
+    {
+      "url": "K003.tsv"
+    },
+    {
+      "url": "K004.tsv"
+    },
+    {
+      "url": "K005.tsv"
+    },
+    {
+      "url": "K006.tsv"
+    },
+    {
+      "url": "K007.tsv"
+    },
+    {
+      "url": "K008.tsv"
+    },
+    {
+      "url": "K009.tsv"
+    },
+    {
+      "url": "K010.tsv"
+    },
+    {
+      "url": "K011.tsv"
+    },
+    {
+      "url": "K012.tsv"
+    },
+    {
+      "url": "K013.tsv"
+    },
+    {
+      "url": "K014.tsv"
+    },
+    {
+      "url": "K017.tsv"
+    },
+    {
+      "url": "K018.tsv"
+    },
+    {
+      "url": "K019.tsv"
+    },
+    {
+      "url": "K020.tsv"
+    },
+    {
+      "url": "K021.tsv"
+    },
+    {
+      "url": "K022.tsv"
+    },
+    {
+      "url": "K023.tsv"
+    },
+    {
+      "url": "K025.tsv"
+    },
+    {
+      "url": "K027.tsv"
+    },
+    {
+      "url": "K031.tsv"
+    },
+    {
+      "url": "K032.tsv"
+    },
+    {
+      "url": "K033.tsv"
+    },
+    {
+      "url": "K034.tsv"
+    },
+    {
+      "url": "K035.tsv"
+    },
+    {
+      "url": "K036.tsv"
+    },
+    {
+      "url": "K037.tsv"
+    },
+    {
+      "url": "K039.tsv"
+    },
+    {
+      "url": "K040.tsv"
+    },
+    {
+      "url": "K044.tsv"
+    },
+    {
+      "url": "K046.tsv"
+    },
+    {
+      "url": "K047.tsv"
+    },
+    {
+      "url": "K048.tsv"
+    },
+    {
+      "url": "K049.tsv"
+    },
+    {
+      "url": "K050.tsv"
+    },
+    {
+      "url": "K051.tsv"
+    },
+    {
+      "url": "K052.tsv"
+    },
+    {
+      "url": "K053.tsv"
+    },
+    {
+      "url": "K054.tsv"
+    },
+    {
+      "url": "K055.tsv"
+    },
+    {
+      "url": "K056.tsv"
+    },
+    {
+      "url": "K057.tsv"
+    },
+    {
+      "url": "K059.tsv"
+    },
+    {
+      "url": "K061.tsv"
+    },
+    {
+      "url": "K062.tsv"
+    },
+    {
+      "url": "K063.tsv"
+    },
+    {
+      "url": "K064.tsv"
+    },
+    {
+      "url": "K065.tsv"
+    },
+    {
+      "url": "K066.tsv"
+    },
+    {
+      "url": "K067.tsv"
+    },
+    {
+      "url": "K068.tsv"
+    },
+    {
+      "url": "K069.tsv"
+    },
+    {
+      "url": "K071.tsv"
+    },
+    {
+      "url": "K072.tsv"
+    },
+    {
+      "url": "K074.tsv"
+    },
+    {
+      "url": "K075.tsv"
+    },
+    {
+      "url": "K076.tsv"
+    },
+    {
+      "url": "K087.tsv"
+    },
+    {
+      "url": "K092.tsv"
+    },
+    {
+      "url": "K094.tsv"
+    },
+    {
+      "url": "K095.tsv"
+    },
+    {
+      "url": "K096.tsv"
+    },
+    {
+      "url": "K097.tsv"
+    },
+    {
+      "url": "K098.tsv"
+    },
+    {
+      "url": "K099.tsv"
+    },
+    {
+      "url": "K100.tsv"
+    }
+  ],
+  "tableSchema": {
+    "columns": [
+      {
+        "titles": "mc",
+        "datatype": "integer",
+        "dc:description": "Measure count."
+      },
+      {
+        "titles": "mn",
+        "datatype": "string",
+        "dc:description": "Measure number."
+      },
+      {
+        "titles": "quarterbeats",
+        "datatype": {
+          "base": "string",
+          "format": "-?\\d+(?:\\/\\d+)?"
+        }
+      },
+      {
+        "titles": "duration_qb",
+        "datatype": "float"
+      },
+      {
+        "titles": "volta",
+        "datatype": "integer"
+      },
+      {
+        "titles": "mc_onset",
+        "datatype": {
+          "base": "string",
+          "format": "-?\\d+(?:\\/\\d+)?"
+        },
+        "dc:description": "An event's distance (fraction of a whole note) from the beginning of the MC."
+      },
+      {
+        "titles": "mn_onset",
+        "datatype": {
+          "base": "string",
+          "format": "-?\\d+(?:\\/\\d+)?"
+        },
+        "dc:description": "An event's distance (fraction of a whole note) from the beginning of the MN."
+      },
+      {
+        "titles": "timesig",
+        "datatype": "string"
+      },
+      {
+        "titles": "staff",
+        "datatype": "integer"
+      },
+      {
+        "titles": "voice",
+        "datatype": "integer"
+      },
+      {
+        "titles": "duration",
+        "datatype": {
+          "base": "string",
+          "format": "-?\\d+(?:\\/\\d+)?"
+        }
+      },
+      {
+        "titles": "gracenote",
+        "datatype": "string"
+      },
+      {
+        "titles": "nominal_duration",
+        "datatype": {
+          "base": "string",
+          "format": "-?\\d+(?:\\/\\d+)?"
+        }
+      },
+      {
+        "titles": "scalar",
+        "datatype": {
+          "base": "string",
+          "format": "-?\\d+(?:\\/\\d+)?"
+        }
+      },
+      {
+        "titles": "tied",
+        "datatype": "integer"
+      },
+      {
+        "titles": "tpc",
+        "datatype": "integer"
+      },
+      {
+        "titles": "midi",
+        "datatype": "integer"
+      },
+      {
+        "titles": "name",
+        "datatype": "string"
+      },
+      {
+        "titles": "octave",
+        "datatype": "integer"
+      },
+      {
+        "titles": "chord_id",
+        "datatype": "integer"
+      }
+    ]
+  }
+}
