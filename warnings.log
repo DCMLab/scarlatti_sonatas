@@ -501,15 +501,15 @@ DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.scarlatti_sonatas.K072 -- /usr/
 ERROR    ms3.Parse.scarlatti_sonatas.K096 -- /usr/local/lib/python3.10/site-packages/ms3/expand_dcml.py (line 270) features2type():
 	% is a seventh chord and cannot have figbass '6'
 WARNING  ms3.Parse.scarlatti_sonatas.K096 -- /usr/local/lib/python3.10/site-packages/ms3/transformations.py (line 304) compute_chord_tones():
-	MC 75: ii%6(9)/i: % requires figbass (7, 65, 43, or 2) since it specifies a chord's seventh.
-WARNING  ms3.Parse.scarlatti_sonatas.K096 -- /usr/local/lib/python3.10/site-packages/ms3/transformations.py (line 304) compute_chord_tones():
 	MC 68: ii%6(9)/i: % requires figbass (7, 65, 43, or 2) since it specifies a chord's seventh.
+WARNING  ms3.Parse.scarlatti_sonatas.K096 -- /usr/local/lib/python3.10/site-packages/ms3/transformations.py (line 304) compute_chord_tones():
+	MC 75: ii%6(9)/i: % requires figbass (7, 65, 43, or 2) since it specifies a chord's seventh.
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 29: ') ms3.Parse.scarlatti_sonatas.K100 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4134) features2tpcs():
+	MC 29: #vii in major context corrected to vii.
 DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 7: ') ms3.Parse.scarlatti_sonatas.K100 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4134) features2tpcs():
 	MC 7: #vii in major context corrected to vii.
 DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 9: ') ms3.Parse.scarlatti_sonatas.K100 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4134) features2tpcs():
 	MC 9: #vii in major context corrected to vii.
-DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 29: ') ms3.Parse.scarlatti_sonatas.K100 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4134) features2tpcs():
-	MC 29: #vii in major context corrected to vii.
 Chord labels where the ratio of colored notes vs. all notes in a segment lies above 0.6:
                                   mc   mn mc_onset        label       chord_tones added_tones  n_colored  n_untouched  count_ratio
 scarlatti_sonatas MS3/K003.mscx   77   75      1/2      iii6/VI         (0, 4, 3)          ()          2            1     0.666667
