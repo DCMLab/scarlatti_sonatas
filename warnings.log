@@ -1,0 +1,579 @@
+Warnings encountered during the last execution of ms3 review (v1.2.2)
+=====================================================================
+
+VOLTAS_WITH_DIFFERING_LENGTHS_WARNING (4, 26) ms3.Parse.scarlatti_sonatas.K018 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 846) treat_group():
+	Volta group of MC 26 contains voltas with different lengths: [2, 1] Check for correct computation of MNs and copy this message into an IGNORED_WARNINGS file to make the warning disappear.
+WARNING  ms3.Parse.scarlatti_sonatas.K022 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 440) start_section():
+	The startRepeat in MC 38 is missing its endRepeat.
+	For correction, MC 79 is interpreted as such because it is the last bar of the piece..
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 27) ms3.Parse.scarlatti_sonatas.K039 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 763) make_offset_col():
+	The incomplete MC 27 (timesig 1, act_dur 1/4) is completed by 1 incorrect duration (expected: 3/4):
+	{1: Fraction(1, 4), 28: Fraction(3, 4)}
+VOLTAS_WITH_DIFFERING_LENGTHS_WARNING (4, 49) ms3.Parse.scarlatti_sonatas.K049 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 846) treat_group():
+	Volta group of MC 49 contains voltas with different lengths: [2, 1] Check for correct computation of MNs and copy this message into an IGNORED_WARNINGS file to make the warning disappear.
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 87) ms3.Parse.scarlatti_sonatas.K049 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 763) make_offset_col():
+	The incomplete MC 87 (timesig 1, act_dur 31/32) is completed by 1 incorrect duration (expected: 1/32):
+	{88: Fraction(1, 1)}
+INCORRECT_VOLTA_MN_WARNING (2, 51) ms3.Parse.scarlatti_sonatas.K049 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 191) check_measure_numbers():
+	MC 51, the 1st measure of a 2nd volta, should have MN 49, not MN 51.
+INCORRECT_VOLTA_MN_WARNING (2, 28) ms3.Parse.scarlatti_sonatas.K054 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 191) check_measure_numbers():
+	MC 28, the 1st measure of a 2nd volta, should have MN 27, not MN 28.
+VOLTAS_WITH_DIFFERING_LENGTHS_WARNING (4, 55) ms3.Parse.scarlatti_sonatas.K092 -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 846) treat_group():
+	Volta group of MC 55 contains voltas with different lengths: [2, 1] Check for correct computation of MNs and copy this message into an IGNORED_WARNINGS file to make the warning disappear.
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 10: ') ms3.Parse.scarlatti_sonatas.K003 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4134) features2tpcs():
+	MC 10: #vii in major context corrected to vii.
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.scarlatti_sonatas.K007 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5117) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             8a         }
+	            9a         {            14a         }
+	           15a         {            31a         }
+	           39a        }{            39a        }{
+	           47a        }{            47a        }{
+	           55a        }{            55a        }{
+	           63a        }{            63a        }{
+	            1b         {            73a         }
+	            9b         {             8b         }
+	           15b         {            14b         }
+	           39b        }{            31b         }
+	           47b        }{            39b        }{
+	           55b        }{            47b        }{
+	           63b        }{            55b        }{
+	           74a         {            63b        }{
+	           81a         {            73b         }
+	           88a         {            81a         }
+	           95a         {            88a         }
+	          101a         {            94a         }
+	          106a        }{           100a         }
+	          121a         {           106a        }{
+	          129a        }{           121a         }
+	          137a        }{           129a        }{
+	          145a        }{           137a        }{
+	           74b         {           145a        }{
+	           81b         {           155a         }
+	           88b         {            81b         }
+	           95b         {            88b         }
+	          101b         {            94b         }
+	          106b        }{           100b         }
+	          121b         {           106b        }{
+	          129b        }{           121b         }
+	          137b        }{           129b        }{
+	          145b        }{           137b        }{
+	           NaN       NaN           145b        }{
+	           NaN       NaN           155b         }
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 35: ') ms3.Parse.scarlatti_sonatas.K008 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4134) features2tpcs():
+	MC 35: #vii in major context corrected to vii.
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 35: ') ms3.Parse.scarlatti_sonatas.K008 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4134) features2tpcs():
+	MC 35: #vii in major context corrected to vii.
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.scarlatti_sonatas.K009 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5117) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            0a         {             4a         }
+	            4a         {            11a         }
+	           12a         {            12a         }
+	           16a        }{            16a        }{
+	           21a         {            20a         }
+	           26a         {            24a         }
+	            4b         {             4b         }
+	           12b         {            11b         }
+	           16b        }{            12b         }
+	           21b         {            16b        }{
+	           26b         {            20b         }
+	           34a         {            24b         }
+	           46a         {            34a         }
+	           50a        }{            46a         }
+	           55a         {            50a        }{
+	           60a         {            54a         }
+	           34b         {            58a         }
+	           46b         {            34b         }
+	           50b        }{            46b         }
+	           55b         {            50b        }{
+	           NaN       NaN            54b         }
+	           NaN       NaN            58b         }
+DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.scarlatti_sonatas.K011 -- /usr/local/lib/python3.10/site-packages/ms3/expand_dcml.py (line 145) expand_labels():
+	propagate_pedal() failed with
+	2 organ points started, 1 ended:
+	   mc pedal    mc pedalend
+	0   5     V     8        ]
+	1  21     V  <NA>      NaN
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.scarlatti_sonatas.K013 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5117) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            0a         {            17a         }
+	           17a         {            21a         }
+	           21a         {            38a        }{
+	           38a        }{            52a         }
+	           54a         {            17b         }
+	           17b         {            21b         }
+	           21b         {            38b        }{
+	           38b        }{            52b         }
+	           54b         {            71a         }
+	           71a         {            75a         }
+	           75a         {            84a        }{
+	           84a        }{            90a         }
+	           99a        }{            99a        }{
+	          113a         {           112a         }
+	           71b         {            71b         }
+	           75b         {            75b         }
+	           84b        }{            84b        }{
+	           99b        }{            90b         }
+	           NaN       NaN            99b        }{
+	           NaN       NaN           112b         }
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.scarlatti_sonatas.K019 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5117) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             8a         }
+	            8a         {            12a         }
+	           12a         {            16a         }
+	           25a        }{            25a        }{
+	           31a        }{            31a        }{
+	            1b         {            36a         }
+	            8b         {             8b         }
+	           12b         {            12b         }
+	           25b        }{            16b         }
+	           31b        }{            25b        }{
+	           38b         {            31b        }{
+	           42a         {            36b         }
+	           46a         {            42a         }
+	           50a         {            46a         }
+	           54a         {            50a         }
+	           59a         {            54a         }
+	           62a        }{            57a         }
+	           65a        }{            62a        }{
+	           70a         {            65a        }{
+	           74a         {            70a         }
+	           80a         {            74a         }
+	           86a        }{            79a         }
+	           42b         {            86a        }{
+	           46b         {            90a         }
+	           50b         {            42b         }
+	           54b         {            46b         }
+	           59b         {            50b         }
+	           62b        }{            54b         }
+	           65b        }{            57b         }
+	           70b         {            62b        }{
+	           74b         {            65b        }{
+	           80b         {            70b         }
+	           86b        }{            74b         }
+	           NaN       NaN            79b         }
+	           NaN       NaN            86b        }{
+	           NaN       NaN            90b         }
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.scarlatti_sonatas.K022 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5117) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             4a        }{
+	            4a        }{             8a        }{
+	            8a        }{            12a         }
+	           12a         {            14a        }{
+	           14a        }{            17a        }{
+	           17a        }{            19a        }{
+	           19a        }{            22a        }{
+	           22a        }{            26a        }{
+	           26a        }{            30a        }{
+	           30a        }{            36a         }
+	            1b         {             4b        }{
+	            4b        }{             8b        }{
+	            8b        }{            12b         }
+	           12b         {            14b        }{
+	           14b        }{            17b        }{
+	           17b        }{            19b        }{
+	           19b        }{            22b        }{
+	           22b        }{            26b        }{
+	           26b        }{            30b        }{
+	           30b        }{            36b        }{
+	           36b        }{            41a        }{
+	           41a        }{            51a        }{
+	           51a        }{            57a        }{
+	           57a        }{            62a        }{
+	           62a        }{            69a        }{
+	           69a        }{            71a        }{
+	           71a        }{            78a         }
+	           41b        }{            41b        }{
+	           51b        }{            51b        }{
+	           57b        }{            57b        }{
+	           62b        }{            62b        }{
+	           69b        }{            69b        }{
+	           71b        }{            71b        }{
+	           NaN       NaN            78b         }
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 38: ') ms3.Parse.scarlatti_sonatas.K039 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4134) features2tpcs():
+	MC 38: #vii in major context corrected to vii.
+DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.scarlatti_sonatas.K047 -- /usr/local/lib/python3.10/site-packages/ms3/expand_dcml.py (line 145) expand_labels():
+	propagate_pedal() failed with
+	4 organ points started, 3 ended:
+	   mc pedal    mc pedalend
+	0  12     V    17        ]
+	1  19     V    21        ]
+	2  44  V/ii    47        ]
+	3  54     V  <NA>      NaN
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 14: ') ms3.Parse.scarlatti_sonatas.K049 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4134) features2tpcs():
+	MC 14: #vii in major context corrected to vii.
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 14: ') ms3.Parse.scarlatti_sonatas.K049 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4134) features2tpcs():
+	MC 14: #vii in major context corrected to vii.
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 14: ') ms3.Parse.scarlatti_sonatas.K049 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4134) features2tpcs():
+	MC 14: #vii in major context corrected to vii.
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.scarlatti_sonatas.K049 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5117) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             6a         }
+	            6a         {            12a         }
+	           12a         {            17a         }
+	           17a         {            23a         }
+	           23a         {            29a        }{
+	           29a        }{            34a        }{
+	           34a        }{            39a         }
+	           44a         {            49a         }
+	            1b         {             6b         }
+	            6b         {            12b         }
+	           12b         {            17b         }
+	           17b         {            23b         }
+	           23b         {            29b        }{
+	           29b        }{            34b        }{
+	           34b        }{            39b         }
+	           44b         {            51a        }{
+	           51a        }{            56a        }{
+	           56a        }{            64a         }
+	           64a         {            68a         }
+	           68a         {            82a        }{
+	           73a         {            88a         }
+	           82a        }{            94a         }
+	           88a         {           100a        }{
+	           94a         {           105a        }{
+	          100a        }{           110a         }
+	          105a        }{           120a         }
+	          115a         {            51b        }{
+	           51b        }{            56b        }{
+	           56b        }{            64b         }
+	           64b         {            68b         }
+	           68b         {            82b        }{
+	           73b         {            88b         }
+	           82b        }{            94b         }
+	           88b         {           100b        }{
+	           94b         {           105b        }{
+	          100b        }{           110b         }
+	          105b        }{           120b         }
+	          115b         {            NaN       NaN
+DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.scarlatti_sonatas.K052 -- /usr/local/lib/python3.10/site-packages/ms3/expand_dcml.py (line 145) expand_labels():
+	propagate_pedal() failed with
+	4 organ points started, 5 ended:
+	     mc pedal  mc pedalend
+	0    23     I  24        ]
+	1    25     I  25        ]
+	2    50     V  53        ]
+	3    54     i  56        ]
+	4  <NA>   NaN  57        ]
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.scarlatti_sonatas.K052 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5117) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             3a        }{
+	            3a        }{             5a        }{
+	            5a        }{             7a        }{
+	            7a        }{             9a        }{
+	            9a        }{            13a        }{
+	           13a        }{            20a        }{
+	           20a        }{            22a        }{
+	           22a        }{            24a         }
+	            1b         {             3b        }{
+	            3b        }{             5b        }{
+	            5b        }{             7b        }{
+	            7b        }{             9b        }{
+	            9b        }{            13b        }{
+	           13b        }{            20b        }{
+	           20b        }{            22b        }{
+	           22b        }{            24b        }{
+	           24b        }{            26a        }{
+	           26a        }{            28a        }{
+	           28a        }{            30a        }{
+	           30a        }{            37a        }{
+	           37a        }{            42a        }{
+	           42a        }{            44a        }{
+	           44a        }{            47a        }{
+	           47a        }{            49a        }{
+	           49a        }{            52a        }{
+	           52a        }{            53a        }{
+	           53a        }{            55a         }
+	           26b        }{            26b        }{
+	           28b        }{            28b        }{
+	           30b        }{            30b        }{
+	           37b        }{            37b        }{
+	           42b        }{            42b        }{
+	           44b        }{            44b        }{
+	           47b        }{            47b        }{
+	           49b        }{            49b        }{
+	           52b        }{            52b        }{
+	           53b        }{            53b        }{
+	           NaN       NaN            55b         }
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.scarlatti_sonatas.K054 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5117) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             2a         }
+	            3a         {             4a         }
+	            5a         {             8a         }
+	           13a        }{            13a        }{
+	           17a        }{            17a        }{
+	           21a        }{            21a        }{
+	           25a        }{            25a        }{
+	            1b         {            27a         }
+	            3b         {             2b         }
+	            5b         {             4b         }
+	           13b        }{             8b         }
+	           17b        }{            13b        }{
+	           21b        }{            17b        }{
+	           25b        }{            21b        }{
+	           30a        }{            25b        }{
+	           33a        }{            28a         }
+	           37a         {            30a        }{
+	           42a        }{            33a        }{
+	           45a        }{            37a         }
+	           48a        }{            42a        }{
+	           51a        }{            45a        }{
+	           53a        }{            48a        }{
+	           56a        }{            51a        }{
+	           30b        }{            53a        }{
+	           33b        }{            56a        }{
+	           37b         {            58a         }
+	           42b        }{            28b         }
+	           45b        }{            30b        }{
+	           48b        }{            33b        }{
+	           51b        }{            37b         }
+	           53b        }{            42b        }{
+	           56b        }{            45b        }{
+	           NaN       NaN            48b        }{
+	           NaN       NaN            51b        }{
+	           NaN       NaN            53b        }{
+	           NaN       NaN            56b        }{
+	           NaN       NaN            58b         }
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.scarlatti_sonatas.K056 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5117) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             2a        }{
+	            2a        }{             4a        }{
+	            4a        }{             6a        }{
+	            6a        }{            12a         }
+	           13a         {            16a        }{
+	           16a        }{            19a        }{
+	           19a        }{            22a        }{
+	           22a        }{            24a        }{
+	           24a        }{            26a        }{
+	           26a        }{            28a        }{
+	           28a        }{            30a         }
+	            1b         {             2b        }{
+	            2b        }{             4b        }{
+	            4b        }{             6b        }{
+	            6b        }{            12b         }
+	           13b         {            16b        }{
+	           16b        }{            19b        }{
+	           19b        }{            22b        }{
+	           22b        }{            24b        }{
+	           24b        }{            26b        }{
+	           26b        }{            28b        }{
+	           28b        }{            30b        }{
+	           30b        }{            35a        }{
+	           35a        }{            43a        }{
+	           43a        }{            47a         }
+	           47a         {            48a         }
+	           48a         {            49a         }
+	           49a         {            51a        }{
+	           51a        }{            53a        }{
+	           53a        }{            55a        }{
+	           55a        }{            57a         }
+	           35b        }{            35b        }{
+	           43b        }{            43b        }{
+	           47b         {            47b         }
+	           48b         {            48b         }
+	           49b         {            49b         }
+	           51b        }{            51b        }{
+	           53b        }{            53b        }{
+	           55b        }{            55b        }{
+	           NaN       NaN            57b         }
+WARNING  ms3.Parse.scarlatti_sonatas.K057 -- /usr/local/lib/python3.10/site-packages/ms3/transformations.py (line 304) compute_chord_tones():
+	MC 40: ii%/vi: % requires figbass (7, 65, 43, or 2) since it specifies a chord's seventh.
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 5: ') ms3.Parse.scarlatti_sonatas.K059 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4134) features2tpcs():
+	MC 5: #vii in major context corrected to vii.
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.scarlatti_sonatas.K062 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5117) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             9a         }
+	           10a         {            25a         }
+	           18a         {            31a         }
+	           25a         {            37a        }{
+	           32a         {            44a         }
+	           37a        }{            49a         }
+	           45a         {             9b         }
+	            1b         {            25b         }
+	           10b         {            31b         }
+	           18b         {            37b        }{
+	           25b         {            44b         }
+	           32b         {            49b         }
+	           37b        }{            57a         }
+	           45b         {            77a         }
+	           52a         {            83a        }{
+	           58a         {            90a         }
+	           78a         {            95a        }{
+	           83a        }{           108a         }
+	           91a         {            57b         }
+	           95a        }{            77b         }
+	           52b         {            83b        }{
+	           58b         {            90b         }
+	           78b         {            95b        }{
+	           83b        }{           108b         }
+	           91b         {            NaN       NaN
+	           95b        }{            NaN       NaN
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 20: ') ms3.Parse.scarlatti_sonatas.K065 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4134) features2tpcs():
+	MC 20: #vii in major context corrected to vii.
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.scarlatti_sonatas.K065 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5117) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             9a         }
+	           10a         {            17a         }
+	           18a         {            23a        }{
+	           23a        }{            27a        }{
+	           27a        }{            33a         }
+	            1b         {             9b         }
+	           10b         {            17b         }
+	           18b         {            23b        }{
+	           23b        }{            27b        }{
+	           27b        }{            33b         }
+	           36a         {            41a        }{
+	           41a        }{            45a         }
+	           46a         {            55a        }{
+	           55a        }{            59a         }
+	           60a         {            65a        }{
+	           65a        }{            70a        }{
+	           70a        }{            41b        }{
+	           36b         {            45b         }
+	           41b        }{            55b        }{
+	           46b         {            59b         }
+	           55b        }{            65b        }{
+	           60b         {            70b        }{
+	           65b        }{            NaN       NaN
+	           70b        }{            NaN       NaN
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.scarlatti_sonatas.K069 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5117) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            0a         {            10a        }{
+	           10a        }{            16a        }{
+	           16a        }{            22a        }{
+	           22a        }{            28a         }
+	           10b        }{            10b        }{
+	           16b        }{            16b        }{
+	           22b        }{            22b        }{
+	           30a         {            28b         }
+	           34a         {            33a         }
+	           36a         {            35a         }
+	           41a        }{            41a        }{
+	           46a        }{            46a        }{
+	           48a        }{            48a        }{
+	           53a        }{            53a        }{
+	           30b         {            33b         }
+	           34b         {            35b         }
+	           36b         {            41b        }{
+	           41b        }{            46b        }{
+	           46b        }{            48b        }{
+	           48b        }{            53b        }{
+	           53b        }{            NaN       NaN
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.scarlatti_sonatas.K072 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5117) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             4a        }{
+	            4a        }{             6a        }{
+	            6a        }{             9a         }
+	            9a         {            11a         }
+	           11a         {            17a        }{
+	           17a        }{            19a         }
+	            1b         {             4b        }{
+	            4b        }{             6b        }{
+	            6b        }{             9b         }
+	            9b         {            11b         }
+	           11b         {            17b        }{
+	           17b        }{            19b         }
+	           20a         {            21a         }
+	           21a         {            22a         }
+	           27a        }{            27a        }{
+	           30a         {            30a         }
+	           35a        }{            35a        }{
+	           20b         {            37a         }
+	           21b         {            21b         }
+	           27b        }{            22b         }
+	           30b         {            27b        }{
+	           35b        }{            30b         }
+	           NaN       NaN            35b        }{
+	           NaN       NaN            37b         }
+ERROR    ms3.Parse.scarlatti_sonatas.K096 -- /usr/local/lib/python3.10/site-packages/ms3/expand_dcml.py (line 270) features2type():
+	% is a seventh chord and cannot have figbass '6'
+WARNING  ms3.Parse.scarlatti_sonatas.K096 -- /usr/local/lib/python3.10/site-packages/ms3/transformations.py (line 304) compute_chord_tones():
+	MC 75: ii%6(9)/i: % requires figbass (7, 65, 43, or 2) since it specifies a chord's seventh.
+WARNING  ms3.Parse.scarlatti_sonatas.K096 -- /usr/local/lib/python3.10/site-packages/ms3/transformations.py (line 304) compute_chord_tones():
+	MC 68: ii%6(9)/i: % requires figbass (7, 65, 43, or 2) since it specifies a chord's seventh.
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 7: ') ms3.Parse.scarlatti_sonatas.K100 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4134) features2tpcs():
+	MC 7: #vii in major context corrected to vii.
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 9: ') ms3.Parse.scarlatti_sonatas.K100 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4134) features2tpcs():
+	MC 9: #vii in major context corrected to vii.
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 29: ') ms3.Parse.scarlatti_sonatas.K100 -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4134) features2tpcs():
+	MC 29: #vii in major context corrected to vii.
+Chord labels where the ratio of colored notes vs. all notes in a segment lies above 0.6:
+                                  mc   mn mc_onset        label       chord_tones added_tones  n_colored  n_untouched  count_ratio
+scarlatti_sonatas MS3/K003.mscx   77   75      1/2      iii6/VI         (0, 4, 3)          ()          2            1     0.666667
+                  MS3/K003.mscx   78   76        0        #vii6         (5, 9, 8)          ()          2            1     0.666667
+                  MS3/K004.mscx    7    6      1/2           IV         (0, 4, 1)          ()          2            1     0.666667
+                  MS3/K004.mscx   40   38      3/4          I64         (2, 1, 5)          ()          2            1     0.666667
+                  MS3/K006.mscx   70   70        0           iv      (-2, -5, -1)          ()          3            1     0.750000
+                  MS3/K014.mscx   25   23      9/8      vi.iio6         (3, 0, 6)          ()          3            1     0.750000
+                  MS3/K017.mscx  112  112        0       I(64)}       (-1, -2, 2)          ()          2            1     0.666667
+                  MS3/K018.mscx   19   19      1/2        ii%65     (2, -1, 3, 5)          ()         10            6     0.625000
+                  MS3/K018.mscx   36   35      3/8      V7(9)/v      (3, 7, 4, 1)       (-2,)          3            1     0.750000
+                  MS3/K018.mscx   46   45        0        ii%65     (1, -2, 2, 4)          ()         10            6     0.625000
+                  MS3/K019.mscx   89   88      3/8           V6         (4, 1, 0)          ()          2            1     0.666667
+                  MS3/K021.mscx  148  148      1/8        V(64)         (3, 2, 6)          ()          3            1     0.750000
+                  MS3/K023.mscx   46   46      1/2        i/v}{         (6, 3, 7)          ()          5            3     0.625000
+                  MS3/K023.mscx   47   47      1/2       i/iv}{         (4, 1, 5)          ()          5            3     0.625000
+                  MS3/K023.mscx   57   57      1/4         V7/i      (3, 7, 4, 1)          ()          5            3     0.625000
+                  MS3/K025.mscx   22   22      1/4         V(6)        (8, 12, 4)          ()          2            1     0.666667
+                  MS3/K025.mscx   50   50      3/8        viio6        (1, -2, 4)          ()          4            0     1.000000
+                  MS3/K025.mscx   51   51      3/8        viio6        (1, -2, 4)          ()          4            0     1.000000
+                  MS3/K031.mscx   64   64        0           i}      (-2, -5, -1)          ()          6            2     0.750000
+                  MS3/K033.mscx   24   24        0          V.V         (4, 8, 5)          ()          6            3     0.666667
+                  MS3/K036.mscx   93   93      1/4        #viio         (8, 5, 2)          ()          2            0     1.000000
+                  MS3/K037.mscx   15   15      1/4       VI/III         (0, 4, 1)          ()          2            1     0.666667
+                  MS3/K037.mscx   16   16        0          i6}        (-3, 1, 0)          ()          4            2     0.666667
+                  MS3/K039.mscx   43   41      1/4           i6         (0, 4, 3)          ()          5            1     0.833333
+                  MS3/K044.mscx   96   96      1/4           v6        (-3, 1, 0)          ()          2            1     0.666667
+                  MS3/K047.mscx   42   42      1/2        iv/ii        (0, -3, 1)          ()          2            1     0.666667
+                  MS3/K047.mscx   43   43      1/2        iv/ii        (0, -3, 1)          ()          2            1     0.666667
+                  MS3/K049.mscx   58   58        0          V65      (9, 6, 3, 5)          ()         12            1     0.923077
+                  MS3/K050.mscx  106  106        0       i|PAC}      (-4, -7, -3)          ()          2            0     1.000000
+                  MS3/K052.mscx   19   19      5/8            I        (-1, 3, 0)          ()          2            1     0.666667
+                  MS3/K052.mscx   34   33      1/8            V         (0, 4, 1)          ()          5            0     1.000000
+                  MS3/K052.mscx   46   45        0        IVM65      (5, 2, 6, 1)          ()          4            1     0.800000
+                  MS3/K054.mscx   23   23     11/8         viio       (2, -1, -4)          ()          2            0     1.000000
+                  MS3/K054.mscx   48   48        0      V|PAC}{         (4, 8, 5)          ()          4            1     0.800000
+                  MS3/K055.mscx   85   85      1/4     #viio7/i     (6, 3, 0, -3)          ()          2            1     0.666667
+                  MS3/K055.mscx   86   86      1/4     #viio7/i     (6, 3, 0, -3)          ()          2            1     0.666667
+                  MS3/K055.mscx   87   87      1/4     #viio7/i     (6, 3, 0, -3)          ()          2            1     0.666667
+                  MS3/K057.mscx   40   40      1/8       ii%/vi                ()          ()          2            0     1.000000
+                  MS3/K057.mscx   48   48      1/8  #viio43/iv{    (-3, -6, 3, 0)          ()          4            0     1.000000
+                  MS3/K057.mscx   49   49        0    i6(13)/iv      (-5, -1, -2)       (-6,)          4            0     1.000000
+                  MS3/K057.mscx   49   49      1/8        i6/iv      (-5, -1, -2)          ()          9            2     0.818182
+                  MS3/K057.mscx   50   50      1/8   #viio43/iv    (-3, -6, 3, 0)          ()          4            0     1.000000
+                  MS3/K057.mscx   51   51        0    i6(13)/iv      (-5, -1, -2)       (-6,)          4            0     1.000000
+                  MS3/K057.mscx   51   51      1/8        i6/iv      (-5, -1, -2)          ()          9            2     0.818182
+                  MS3/K057.mscx  117  117      1/8   #viio65/iv    (0, -3, -6, 3)          ()          6            0     1.000000
+                  MS3/K057.mscx  119  119      1/8   #viio65/iv    (0, -3, -6, 3)          ()          6            0     1.000000
+                  MS3/K057.mscx  143  143      1/4     V2(4)/iv  (-4, -2, -3, -1)          ()          3            1     0.750000
+                  MS3/K057.mscx  146  146        0          iv6      (-6, -2, -3)          ()          8            4     0.666667
+                  MS3/K059.mscx   19   19        0          IV6         (5, 2, 1)          ()          3            1     0.750000
+                  MS3/K062.mscx   17   17      1/8            V         (4, 8, 5)          ()          2            1     0.666667
+                  MS3/K066.mscx   23   21      3/4        iv(4)       (-3, 3, -2)          ()          2            0     1.000000
+                  MS3/K066.mscx   23   21      7/8           iv      (-3, -6, -2)          ()          1            0     1.000000
+                  MS3/K066.mscx   32   30      3/4           iv      (-3, -6, -2)          ()          2            1     0.666667
+                  MS3/K068.mscx   82   82        0         VII6       (2, -1, -2)          ()          5            0     1.000000
+                  MS3/K076.mscx   19   19        0           VI       (-2, 2, -1)          ()          2            1     0.666667
+                  MS3/K076.mscx   48   48      1/8            i        (1, -2, 2)          ()          2            1     0.666667
+                  MS3/K087.mscx   29   29      1/2       #viio2     (1, 10, 7, 4)          ()          2            1     0.666667
+                  MS3/K087.mscx   64   64      1/2       #viio6        (7, 4, 10)          ()          2            1     0.666667
+                  MS3/K094.mscx   21   21      1/8      ii6(#0)        (-2, 2, 1)          ()          1            0     1.000000
+                  MS3/K094.mscx   22   22      1/8       i6(#0)       (-4, 0, -1)          ()          1            0     1.000000
+                  MS3/K096.mscx   68   68        0    ii%6(9)/i                ()          ()          5            0     1.000000
+                  MS3/K096.mscx   68   68      1/8  ii%65(b8)/i     (2, -1, 3, 5)          ()          1            0     1.000000
+                  MS3/K096.mscx   75   75        0    ii%6(9)/i                ()          ()          5            0     1.000000
+                  MS3/K096.mscx   75   75      1/8  ii%65(b8)/i     (2, -1, 3, 5)          ()          1            0     1.000000
+                  MS3/K099.mscx   29   29      1/8         V7/V      (3, 7, 4, 1)          ()         11            4     0.733333
