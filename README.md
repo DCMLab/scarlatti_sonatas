@@ -24,7 +24,7 @@ explanatory messages should be created for changes to the actual analysis.
  
 
 
-# Overview
+## Overview
 |file_name|measures|labels|standard|                  annotators                  |reviewers|
 |---------|-------:|-----:|--------|----------------------------------------------|---------|
 |K001     |      31|    89|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK, JH   |
@@ -98,4 +98,4 @@ explanatory messages should be created for changes to the actual analysis.
 |K100     |      50|   144|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
 
 
-*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.2.2.*
+*Overview table automatically updated using [ms3](https://johentsch.github.io/ms3/).*
