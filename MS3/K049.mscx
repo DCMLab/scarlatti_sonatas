@@ -4662,6 +4662,7 @@
         </Measure>
       <Measure>
         <startRepeat/>
+        <irregular>1</irregular>
         <voice>
           <BarLine>
             <subtype>start-repeat</subtype>
@@ -7441,7 +7442,7 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure len="31/32">
+      <Measure>
         <voice>
           <Spanner type="Trill">
             <prev>
@@ -7600,6 +7601,11 @@
               </Note>
             </Chord>
           <Rest>
+            <visible>0</visible>
+            <durationType>32nd</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -15322,7 +15328,7 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure len="31/32">
+      <Measure>
         <voice>
           <Spanner type="Trill">
             <prev>
@@ -15332,14 +15338,8 @@
               </prev>
             </Spanner>
           <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <dots>1</dots>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Rest>
-            <durationType>32nd</durationType>
+            <visible>0</visible>
+            <durationType>half</durationType>
             </Rest>
           <Chord>
             <BeamMode>mid</BeamMode>
