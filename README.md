@@ -26,7 +26,7 @@ explanatory messages should be created for changes to the actual analysis.
 
 The following sonatas have been typeset by Tom Schreyer: K003, K004, K005, K006, K007, K008, K009, K010, K011, K012, K013, K014, K017, K018, K019, K020, K021, K022, K025, K027, K031, K033, K037, K039, K040, K044, K046, K047, K049, K051, K052, K053, K054, K056, K057, K059, K061, K062, K065, K066, K067, K068, K069, K071, K072, K074, K075, K092, K094, K095, K096, K097, K099, K100
 
-# Overview
+## Overview
 |file_name|measures|labels|standard|                  annotators                  |reviewers|
 |---------|-------:|-----:|--------|----------------------------------------------|---------|
 |K001     |      31|    89|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK, JH   |
@@ -65,12 +65,12 @@ The following sonatas have been typeset by Tom Schreyer: K003, K004, K005, K006,
 |K046     |     144|   321|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
 |K047     |      75|   309|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
 |K048     |     124|   234|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
-|K049     |     120|   268|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK, AB   |
+|K049     |     119|   268|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK, AB   |
 |K050     |     159|   246|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK, AB   |
 |K051     |      47|   257|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
 |K052     |      55|   378|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
 |K053     |     100|   135|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK, AB   |
-|K054     |      58|   202|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
+|K054     |      57|   202|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
 |K055     |     133|   197|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK, AB   |
 |K056     |      58|   220|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
 |K057     |     182|   311|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK, AB   |
@@ -90,7 +90,7 @@ The following sonatas have been typeset by Tom Schreyer: K003, K004, K005, K006,
 |K075     |      45|    98|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
 |K076     |      67|   162|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
 |K087     |      70|   201|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
-|K092     |      55|   178|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
+|K092     |      54|   178|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
 |K094     |      26|    56|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
 |K095     |      23|    47|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
 |K096     |     211|   357|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK, AB   |
@@ -100,4 +100,4 @@ The following sonatas have been typeset by Tom Schreyer: K003, K004, K005, K006,
 |K100     |      50|   144|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
 
 
-*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.2.2.*
+*Overview table automatically updated using [ms3](https://johentsch.github.io/ms3/).*

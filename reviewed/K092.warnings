@@ -1,5 +1,12 @@
-Warnings encountered during the last execution of ms3 review (v1.2.10)
-======================================================================
+Warnings encountered during the last execution of ms3 review
+============================================================
 
-VOLTAS_WITH_DIFFERING_LENGTHS_WARNING (4, 55) ms3.Parse.scarlatti_sonatas.K092
+VOLTAS_WITH_DIFFERING_LENGTHS_WARNING (4, 55) ms3.Parse.scarlatti_sonatas.K092 --
 	Volta group of MC 55 contains voltas with different lengths: [2, 1] Check for correct computation of MNs and copy this message into an IGNORED_WARNINGS file to make the warning disappear.
+INCORRECT_VOLTA_MN_WARNING (2, 57) ms3.Parse.scarlatti_sonatas.K092 --
+	MC 57, the 1st measure of a 2nd volta, should have MN 55, not MN 54.
+FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.scarlatti_sonatas.K092 --
+	No metronome mark found in the very first measure nor anywhere else in the score.
+	* Please add one at the very beginning and hide it if it's not from the original print edition.
+	* Make sure to choose the rhythmic unit that corresponds to beats in this piece and to set another mark wherever that unit changes.
+	* The tempo marks can be rough estimates, maybe cross-checked with a recording.
