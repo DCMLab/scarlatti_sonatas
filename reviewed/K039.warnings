@@ -1,9 +1,6 @@
 Warnings encountered during the last execution of ms3 review
 ============================================================
 
-INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 27) ms3.Parse.scarlatti_sonatas.K039 --
-	The incomplete MC 27 (timesig 1, act_dur 1/4) is completed by 1 incorrect duration (expected: 3/4):
-	{1: Fraction(1, 4), 28: Fraction(3, 4)}
 FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.scarlatti_sonatas.K039 --
 	No metronome mark found in the very first measure nor anywhere else in the score.
 DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 38: ') ms3.Parse.scarlatti_sonatas.K039 --

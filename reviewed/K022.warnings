@@ -1,9 +1,6 @@
 Warnings encountered during the last execution of ms3 review
 ============================================================
 
-WARNING  ms3.Parse.scarlatti_sonatas.K022 --
-	The startRepeat in MC 38 is missing its endRepeat.
-	For correction, MC 79 is interpreted as such because it is the last bar of the piece..
 FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.scarlatti_sonatas.K022 --
 	No metronome mark found in the very first measure nor anywhere else in the score.
 DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.scarlatti_sonatas.K022 --
