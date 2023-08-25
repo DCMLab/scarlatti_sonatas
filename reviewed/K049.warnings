@@ -3,11 +3,6 @@ Warnings encountered during the last execution of ms3 review
 
 VOLTAS_WITH_DIFFERING_LENGTHS_WARNING (4, 49) ms3.Parse.scarlatti_sonatas.K049 --
 	Volta group of MC 49 contains voltas with different lengths: [2, 1] Check for correct computation of MNs and copy this message into an IGNORED_WARNINGS file to make the warning disappear.
-INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 87) ms3.Parse.scarlatti_sonatas.K049 --
-	The incomplete MC 87 (timesig 1, act_dur 31/32) is completed by 1 incorrect duration (expected: 1/32):
-	{88: Fraction(1, 1)}
-INCORRECT_VOLTA_MN_WARNING (2, 51) ms3.Parse.scarlatti_sonatas.K049 --
-	MC 51, the 1st measure of a 2nd volta, should have MN 49, not MN 51.
 FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.scarlatti_sonatas.K049 --
 	No metronome mark found in the very first measure nor anywhere else in the score.
 DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 14: ') ms3.Parse.scarlatti_sonatas.K049 --
@@ -34,29 +29,29 @@ DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.scarlatti_sonatas.K049 --
 	           23b         {            29b        }{
 	           29b        }{            34b        }{
 	           34b        }{            39b         }
-	           44b         {            51a        }{
-	           51a        }{            56a        }{
-	           56a        }{            64a         }
-	           64a         {            68a         }
-	           68a         {            82a        }{
-	           73a         {            88a         }
-	           82a        }{            94a         }
-	           88a         {           100a        }{
-	           94a         {           105a        }{
-	          100a        }{           110a         }
-	          105a        }{           120a         }
-	          115a         {            51b        }{
-	           51b        }{            56b        }{
-	           56b        }{            64b         }
-	           64b         {            68b         }
-	           68b         {            82b        }{
-	           73b         {            88b         }
-	           82b        }{            94b         }
-	           88b         {           100b        }{
-	           94b         {           105b        }{
-	          100b        }{           110b         }
-	          105b        }{           120b         }
-	          115b         {            NaN       NaN
+	           44b         {            49b        }{
+	           49b        }{            54a        }{
+	           54a        }{            62a         }
+	           62a         {            66a         }
+	           66a         {            80a        }{
+	           71a         {            86a         }
+	           80a        }{            92a         }
+	           86a         {            98a        }{
+	           92a         {           103a        }{
+	           98a        }{           108a         }
+	          103a        }{           118a         }
+	          113a         {            49c        }{
+	           49c        }{            54b        }{
+	           54b        }{            62b         }
+	           62b         {            66b         }
+	           66b         {            80b        }{
+	           71b         {            86b         }
+	           80b        }{            92b         }
+	           86b         {            98b        }{
+	           92b         {           103b        }{
+	           98b        }{           108b         }
+	          103b        }{           118b         }
+	          113b         {            NaN       NaN
 DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 14: ') ms3.Parse.scarlatti_sonatas.K049 --
 	MC 14: #vii in major context corrected to vii.
 DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 14: ') ms3.Parse.scarlatti_sonatas.K049 --
@@ -64,7 +59,7 @@ DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 14: ') ms3.Parse.scarlatti_sonatas.K049
 DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 14: ') ms3.Parse.scarlatti_sonatas.K049 --
 	MC 14: #vii in major context corrected to vii.
 DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 58, '0', 'V65') ms3.Parse.scarlatti_sonatas.K049 --
-	The label 'V65' in m. 58, onset 0 (MC 58, onset 0)
+	The label 'V65' in m. 56, onset 0 (MC 58, onset 0)
 	                seems not to correspond well to the score (which does not necessarily mean it is wrong).
 	In the context of C.iii, it expresses the scale degrees
 	('#7', '2', '4', '5') [('D#', 'F#', 'A', 'B')].
