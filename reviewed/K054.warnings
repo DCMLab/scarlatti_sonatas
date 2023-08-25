@@ -1,8 +1,6 @@
 Warnings encountered during the last execution of ms3 review
 ============================================================
 
-INCORRECT_VOLTA_MN_WARNING (2, 28) ms3.Parse.scarlatti_sonatas.K054 --
-	MC 28, the 1st measure of a 2nd volta, should have MN 27, not MN 28.
 FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.scarlatti_sonatas.K054 --
 	No metronome mark found in the very first measure nor anywhere else in the score.
 DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.scarlatti_sonatas.K054 --
@@ -22,29 +20,29 @@ DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.scarlatti_sonatas.K054 --
 	           17b        }{            13b        }{
 	           21b        }{            17b        }{
 	           25b        }{            21b        }{
-	           30a        }{            25b        }{
-	           33a        }{            28a         }
-	           37a         {            30a        }{
-	           42a        }{            33a        }{
-	           45a        }{            37a         }
-	           48a        }{            42a        }{
-	           51a        }{            45a        }{
-	           53a        }{            48a        }{
-	           56a        }{            51a        }{
-	           30b        }{            53a        }{
-	           33b        }{            56a        }{
-	           37b         {            58a         }
-	           42b        }{            28b         }
-	           45b        }{            30b        }{
-	           48b        }{            33b        }{
-	           51b        }{            37b         }
-	           53b        }{            42b        }{
-	           56b        }{            45b        }{
-	           NaN       NaN            48b        }{
-	           NaN       NaN            51b        }{
-	           NaN       NaN            53b        }{
-	           NaN       NaN            56b        }{
-	           NaN       NaN            58b         }
+	           29a        }{            25b        }{
+	           32a        }{            27b         }
+	           36a         {            29a        }{
+	           41a        }{            32a        }{
+	           44a        }{            36a         }
+	           47a        }{            41a        }{
+	           50a        }{            44a        }{
+	           52a        }{            47a        }{
+	           55a        }{            50a        }{
+	           29b        }{            52a        }{
+	           32b        }{            55a        }{
+	           36b         {            57a         }
+	           41b        }{            57a         }
+	           44b        }{            29b        }{
+	           47b        }{            32b        }{
+	           50b        }{            36b         }
+	           52b        }{            41b        }{
+	           55b        }{            44b        }{
+	           NaN       NaN            47b        }{
+	           NaN       NaN            50b        }{
+	           NaN       NaN            52b        }{
+	           NaN       NaN            55b        }{
+	           NaN       NaN            57b         }
 DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 23, '11/8', 'viio') ms3.Parse.scarlatti_sonatas.K054 --
 	The label 'viio' in m. 23, onset 11/8 (MC 23, onset 11/8)
 	                seems not to correspond well to the score (which does not necessarily mean it is wrong).
@@ -55,7 +53,7 @@ DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 23, '11/8', 'viio') ms3.Parse.
 	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
 	by a free-text comment in subsequent lines starting with a space or tab.
 DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 48, '0', 'V|PAC}{') ms3.Parse.scarlatti_sonatas.K054 --
-	The label 'V|PAC}{' in m. 48, onset 0 (MC 48, onset 0)
+	The label 'V|PAC}{' in m. 47, onset 0 (MC 48, onset 0)
 	                seems not to correspond well to the score (which does not necessarily mean it is wrong).
 	In the context of a.i, it expresses the scale degrees
 	('5', '#7', '2') [('E', 'G#', 'B')].

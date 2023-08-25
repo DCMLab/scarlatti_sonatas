@@ -70,7 +70,7 @@ The following sonatas have been typeset by Tom Schreyer: K003, K004, K005, K006,
 |K051     |      47|   257|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
 |K052     |      55|   378|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
 |K053     |     100|   135|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK, AB   |
-|K054     |      58|   202|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
+|K054     |      57|   202|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
 |K055     |     133|   197|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK, AB   |
 |K056     |      58|   220|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
 |K057     |     182|   311|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK, AB   |
