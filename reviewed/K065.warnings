@@ -1,0 +1,36 @@
+Warnings encountered during the last execution of ms3 review
+============================================================
+
+FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.scarlatti_sonatas.K065 --
+	No metronome mark found in the very first measure nor anywhere else in the score.
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 20: ') ms3.Parse.scarlatti_sonatas.K065 --
+	MC 20: #vii in major context corrected to vii.
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.scarlatti_sonatas.K065 --
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             9a         }
+	           10a         {            17a         }
+	           18a         {            23a        }{
+	           23a        }{            27a        }{
+	           27a        }{            33a         }
+	            1b         {             9b         }
+	           10b         {            17b         }
+	           18b         {            23b        }{
+	           23b        }{            27b        }{
+	           27b        }{            33b         }
+	           36a         {            41a        }{
+	           41a        }{            45a         }
+	           46a         {            55a        }{
+	           55a        }{            59a         }
+	           60a         {            65a        }{
+	           65a        }{            70a        }{
+	           70a        }{            41b        }{
+	           36b         {            45b         }
+	           41b        }{            55b        }{
+	           46b         {            59b         }
+	           55b        }{            65b        }{
+	           60b         {            70b        }{
+	           65b        }{            NaN       NaN
+	           70b        }{            NaN       NaN
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 20: ') ms3.Parse.scarlatti_sonatas.K065 --
+	MC 20: #vii in major context corrected to vii.

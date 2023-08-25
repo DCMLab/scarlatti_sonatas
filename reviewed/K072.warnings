@@ -1,0 +1,32 @@
+Warnings encountered during the last execution of ms3 review
+============================================================
+
+FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.scarlatti_sonatas.K072 --
+	No metronome mark found in the very first measure nor anywhere else in the score.
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.scarlatti_sonatas.K072 --
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             4a        }{
+	            4a        }{             6a        }{
+	            6a        }{             9a         }
+	            9a         {            11a         }
+	           11a         {            17a        }{
+	           17a        }{            19a         }
+	            1b         {             4b        }{
+	            4b        }{             6b        }{
+	            6b        }{             9b         }
+	            9b         {            11b         }
+	           11b         {            17b        }{
+	           17b        }{            19b         }
+	           20a         {            21a         }
+	           21a         {            22a         }
+	           27a        }{            27a        }{
+	           30a         {            30a         }
+	           35a        }{            35a        }{
+	           20b         {            37a         }
+	           21b         {            21b         }
+	           27b        }{            22b         }
+	           30b         {            27b        }{
+	           35b        }{            30b         }
+	           NaN       NaN            35b        }{
+	           NaN       NaN            37b         }

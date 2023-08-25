@@ -1,0 +1,45 @@
+Warnings encountered during the last execution of ms3 review
+============================================================
+
+WARNING  ms3.Parse.scarlatti_sonatas.K022 --
+	The startRepeat in MC 38 is missing its endRepeat.
+	For correction, MC 79 is interpreted as such because it is the last bar of the piece..
+FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.scarlatti_sonatas.K022 --
+	No metronome mark found in the very first measure nor anywhere else in the score.
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.scarlatti_sonatas.K022 --
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             4a        }{
+	            4a        }{             8a        }{
+	            8a        }{            12a         }
+	           12a         {            14a        }{
+	           14a        }{            17a        }{
+	           17a        }{            19a        }{
+	           19a        }{            22a        }{
+	           22a        }{            26a        }{
+	           26a        }{            30a        }{
+	           30a        }{            36a         }
+	            1b         {             4b        }{
+	            4b        }{             8b        }{
+	            8b        }{            12b         }
+	           12b         {            14b        }{
+	           14b        }{            17b        }{
+	           17b        }{            19b        }{
+	           19b        }{            22b        }{
+	           22b        }{            26b        }{
+	           26b        }{            30b        }{
+	           30b        }{            36b        }{
+	           36b        }{            41a        }{
+	           41a        }{            51a        }{
+	           51a        }{            57a        }{
+	           57a        }{            62a        }{
+	           62a        }{            69a        }{
+	           69a        }{            71a        }{
+	           71a        }{            78a         }
+	           41b        }{            41b        }{
+	           51b        }{            51b        }{
+	           57b        }{            57b        }{
+	           62b        }{            62b        }{
+	           69b        }{            69b        }{
+	           71b        }{            71b        }{
+	           NaN       NaN            78b         }
