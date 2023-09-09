@@ -355,7 +355,7 @@ document.write(`
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Notebook settings
 -----------------
 
-CORPUS_PATH: &#39;/home/runner/work/workflow_deployment/workflow_deployment/DCML/scarlatti_sonatas&#39;
+CORPUS_PATH: &#39;/home/hentsche/tmp/all_subcorpora/&#39;
 </pre></div>
 </div>
 </div>
@@ -368,10 +368,8 @@ CORPUS_PATH: &#39;/home/runner/work/workflow_deployment/workflow_deployment/DCML
 </summary>
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">repo</span> <span class="o">=</span> <span class="n">Repo</span><span class="p">(</span><span class="n">CORPUS_PATH</span><span class="p">)</span>
-<span class="n">notebook_repo</span> <span class="o">=</span> <span class="n">Repo</span><span class="p">(</span><span class="s1">&#39;.&#39;</span><span class="p">,</span> <span class="n">search_parent_directories</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="n">print_heading</span><span class="p">(</span><span class="s2">&quot;Data and software versions&quot;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Notebook repository &#39;</span><span class="si">{</span><span class="n">get_repo_name</span><span class="p">(</span><span class="n">notebook_repo</span><span class="p">)</span><span class="si">}</span><span class="s2">&#39; @ </span><span class="si">{</span><span class="n">notebook_repo</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span><span class="o">.</span><span class="n">hexsha</span><span class="p">[:</span><span class="mi">7</span><span class="p">]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Data repo &#39;</span><span class="si">{</span><span class="n">get_repo_name</span><span class="p">(</span><span class="n">CORPUS_PATH</span><span class="p">)</span><span class="si">}</span><span class="s2">&#39; @ </span><span class="si">{</span><span class="n">repo</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span><span class="o">.</span><span class="n">hexsha</span><span class="p">[:</span><span class="mi">7</span><span class="p">]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Data repo &#39;</span><span class="si">{</span><span class="n">get_repo_name</span><span class="p">(</span><span class="n">repo</span><span class="p">)</span><span class="si">}</span><span class="s2">&#39; @ </span><span class="si">{</span><span class="n">repo</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span><span class="o">.</span><span class="n">hexsha</span><span class="p">[:</span><span class="mi">7</span><span class="p">]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;dimcat version </span><span class="si">{</span><span class="n">dc</span><span class="o">.</span><span class="n">__version__</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;ms3 version </span><span class="si">{</span><span class="n">ms3</span><span class="o">.</span><span class="n">__version__</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
 </pre></div>
@@ -379,13 +377,22 @@ CORPUS_PATH: &#39;/home/runner/work/workflow_deployment/workflow_deployment/DCML
 </div>
 </details>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Data and software versions
---------------------------
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">NoSuchPathError</span><span class="g g-Whitespace">                           </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">3</span><span class="p">],</span> <span class="n">line</span> <span class="mi">1</span>
+<span class="ne">----&gt; </span><span class="mi">1</span> <span class="n">repo</span> <span class="o">=</span> <span class="n">Repo</span><span class="p">(</span><span class="n">CORPUS_PATH</span><span class="p">)</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="n">print_heading</span><span class="p">(</span><span class="s2">&quot;Data and software versions&quot;</span><span class="p">)</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Data repo &#39;</span><span class="si">{</span><span class="n">get_repo_name</span><span class="p">(</span><span class="n">repo</span><span class="p">)</span><span class="si">}</span><span class="s2">&#39; @ </span><span class="si">{</span><span class="n">repo</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span><span class="o">.</span><span class="n">hexsha</span><span class="p">[:</span><span class="mi">7</span><span class="p">]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
 
-Notebook repository &#39;data_reports&#39; @ 2f0de7d
-Data repo &#39;scarlatti_sonatas&#39; @ 5cf7360
-dimcat version 0.3.0
-ms3 version 1.2.5
+<span class="nn">File ~/.local/lib/python3.10/site-packages/git/repo/base.py:214,</span> in <span class="ni">Repo.__init__</span><span class="nt">(self, path, odbt, search_parent_directories, expand_vars)</span>
+<span class="g g-Whitespace">    </span><span class="mi">212</span> <span class="k">if</span> <span class="n">epath</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">213</span>     <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">epath</span><span class="p">):</span>
+<span class="ne">--&gt; </span><span class="mi">214</span>         <span class="k">raise</span> <span class="n">NoSuchPathError</span><span class="p">(</span><span class="n">epath</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">216</span> <span class="c1">## Walk up the path to find the `.git` dir.</span>
+<span class="g g-Whitespace">    </span><span class="mi">217</span> <span class="c1">#</span>
+<span class="g g-Whitespace">    </span><span class="mi">218</span> <span class="n">curpath</span> <span class="o">=</span> <span class="n">epath</span>
+
+<span class="ne">NoSuchPathError</span>: /home/hentsche/tmp/all_subcorpora
 </pre></div>
 </div>
 </div>
@@ -399,34 +406,8 @@ ms3 version 1.2.5
 </div>
 </div>
 <div class="cell tag_remove-input docutils container">
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[<span class=" -Color -Color-Bold">annotated</span>|all|default]
-All corpora
------------
-View: This view is called &#39;annotated&#39;. It 
-	- excludes fnames that are not contained in the metadata,
-	- excludes pieces that do not have at least one file per selected facet,
-	- filters out file extensions requiring conversion (such as .xml),
-	- excludes review files and folders, and
-	- includes only facets containing one of [&#39;measures&#39;, &#39;expanded&#39;].
-
-                       has     active
-                  metadata       view
-corpus                               
-scarlatti_sonatas      yes  annotated
-
-10/12 facets are excluded from this view.
-138/138 fnames are excluded from this view.
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell tag_remove-input docutils container">
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>N = 0 annotated pieces, 0 parsed dataframes.
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -439,19 +420,6 @@ scarlatti_sonatas      yes  annotated
 <span class="n">corpus_names</span> <span class="o">=</span> <span class="p">{</span><span class="n">corp</span><span class="p">:</span> <span class="n">get_corpus_display_name</span><span class="p">(</span><span class="n">corp</span><span class="p">)</span> <span class="k">for</span> <span class="n">corp</span> <span class="ow">in</span> <span class="n">chronological_order</span><span class="p">}</span>
 <span class="n">chronological_corpus_names</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">corpus_names</span><span class="o">.</span><span class="n">values</span><span class="p">())</span>
 <span class="n">corpus_name_colors</span> <span class="o">=</span> <span class="p">{</span><span class="n">corpus_names</span><span class="p">[</span><span class="n">corp</span><span class="p">]:</span> <span class="n">color</span> <span class="k">for</span> <span class="n">corp</span><span class="p">,</span> <span class="n">color</span> <span class="ow">in</span> <span class="n">corpus_colors</span><span class="o">.</span><span class="n">items</span><span class="p">()}</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">AssertionError</span><span class="g g-Whitespace">                            </span>Traceback (most recent call last)
-<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">7</span><span class="p">],</span> <span class="n">line</span> <span class="mi">2</span>
-<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="n">all_metadata</span> <span class="o">=</span> <span class="n">dataset</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">metadata</span><span class="p">()</span>
-<span class="ne">----&gt; </span><span class="mi">2</span> <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">all_metadata</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;No pieces selected for analysis.&quot;</span>
-<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Metadata covers </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">all_metadata</span><span class="p">)</span><span class="si">}</span><span class="s2"> of the </span><span class="si">{</span><span class="n">dataset</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">count_pieces</span><span class="p">()</span><span class="si">}</span><span class="s2"> scores.&quot;</span><span class="p">)</span>
-<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="n">mean_composition_years</span> <span class="o">=</span> <span class="n">corpus_mean_composition_years</span><span class="p">(</span><span class="n">all_metadata</span><span class="p">)</span>
-
-<span class="ne">AssertionError</span>: No pieces selected for analysis.
 </pre></div>
 </div>
 </div>
