@@ -1,28 +1,94 @@
-# Domenico Scarlatti - Harpsichord Sonatas
+![Version](https://img.shields.io/github/v/release/DCMLab/scarlatti_sonatas?display_name=tag)
+[![DOI](https://zenodo.org/badge/{{ zenodo_badge_id }}.svg)](https://doi.org/{{ concept_doi }})
+![GitHub repo size](https://img.shields.io/github/repo-size/DCMLab/scarlatti_sonatas)
+![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-9cf)
 
-The harmonic annotations come from ancient times (hence harmony_version `0.0.0`)
-and have been handed down in the form of the TXT files contained in the folder
-`original_annotations`. A number of manual adjustments had to be made to allow
-their being written into the MuseScore files because their encoding is not very
-rigorous and was never algorithmically validated.
 
-Apart from the syntactical inconsistencies and typical careless mistakes, the
-analyses look reasonable. However, since they predate last years' developments
-of the DCML standard, a couple of things will need to be corrected systematically,
-such as:
+This is a README file for a data repository originating from the [DCML corpus initiative](https://github.com/DCMLab/dcml_corpora)
+and serves as welcome page for both 
 
-* all modulations are expressed in absolute rather than relative terms;
-* repetition of identical labels;
-* the overuse of `@none` which, in this repertoire, can in principle always be avoided;
-* obvious syntax errors (e.g. `I(M7)`);
-* absence of an overarching harmonic rhythm as a guideline for a consistent level of detail;
-* cadence labels (for example, `QA` ('Quintabsatz') was partially used for what we would
-  label as `HC`);
+* the GitHub repo [https://github.com/DCMLab/scarlatti_sonatas](https://github.com/DCMLab/scarlatti_sonatas) and the corresponding
+* documentation page [https://dcmlab.github.io/scarlatti_sonatas](https://dcmlab.github.io/scarlatti_sonatas)
 
-During the update, these points can be corrected tacitly. Individual commits with
-explanatory messages should be created for changes to the actual analysis.
- 
-## Origin
+For information on how to obtain and use the dataset, please refer to [this documentation page](https://dcmlab.github.io/scarlatti_sonatas/introduction).
+
+# Domenico Scarlatti – Keyboard Sonatas
+
+
+## Getting the data
+
+* download repository as a [ZIP file](https://github.com/DCMLab/scarlatti_sonatas/archive/main.zip)
+* download a [Frictionless Datapackage](https://specs.frictionlessdata.io/data-package/) that includes concatenations
+  of the TSV files in the four folders (`measures`, `notes`, `chords`, and `harmonies`) and a JSON descriptor:
+  * [scarlatti_sonatas.zip](https://github.com/DCMLab/scarlatti_sonatas/releases/latest/download/scarlatti_sonatas.zip)
+  * [scarlatti_sonatas.datapackage.json](https://github.com/DCMLab/scarlatti_sonatas/releases/latest/download/scarlatti_sonatas.datapackage.json)
+* clone the repo: `git clone https://github.com/DCMLab/scarlatti_sonatas.git` 
+
+
+## Data Formats
+
+Each piece in this corpus is represented by five files with identical name prefixes, each in its own folder. 
+For example, the *Sonata K.1* has the following files:
+
+* `MS3/K001.mscx`: Uncompressed MuseScore 3.6.2 file including the music and annotation labels.
+* `notes/K001.notes.tsv`: A table of all note heads contained in the score and their relevant features (not each of them represents an onset, some are tied together)
+* `measures/K001.measures.tsv`: A table with relevant information about the measures in the score.
+* `chords/K001.chords.tsv`: A table containing layer-wise unique onset positions with the musical markup (such as dynamics, articulation, lyrics, figured bass, etc.).
+* `harmonies/K001.harmonies.tsv`: A table of the included harmony labels (including cadences and phrases) with their positions in the score.
+
+Each TSV file comes with its own JSON descriptor that describes the meanings and datatypes of the columns ("fields") it contains,
+follows the [Frictionless specification](https://specs.frictionlessdata.io/tabular-data-resource/),
+and can be used to validate and correctly load the described file. 
+
+### Opening Scores
+
+After navigating to your local copy, you can open the scores in the folder `MS3` with the free and open source score
+editor [MuseScore](https://musescore.org). Please note that the scores have been edited, annotated and tested with
+[MuseScore 3.6.2](https://github.com/musescore/MuseScore/releases/tag/v3.6.2). 
+MuseScore 4 has since been released which renders them correctly but cannot store them back in the same format.
+
+### Opening TSV files in a spreadsheet
+
+Tab-separated value (TSV) files are like Comma-separated value (CSV) files and can be opened with most modern text
+editors. However, for correctly displaying the columns, you might want to use a spreadsheet or an addon for your
+favourite text editor. When you use a spreadsheet such as Excel, it might annoy you by interpreting fractions as
+dates. This can be circumvented by using `Data --> From Text/CSV` or the free alternative
+[LibreOffice Calc](https://www.libreoffice.org/download/download/). Other than that, TSV data can be loaded with
+every modern programming language.
+
+### Loading TSV files in Python
+
+Since the TSV files contain null values, lists, fractions, and numbers that are to be treated as strings, you may want
+to use this code to load any TSV files related to this repository (provided you're doing it in Python). After a quick
+`pip install -U ms3` (requires Python 3.10) you'll be able to load any TSV like this:
+
+```python
+import ms3
+
+labels = ms3.load_tsv("harmonies/K001.harmonies.tsv")
+notes = ms3.load_tsv("notes/K001.notes.tsv"")
+```
+
+
+## Version history
+
+See the [GitHub releases](https://github.com/DCMLab/scarlatti_sonatas/releases).
+
+## Questions, Suggestions, Corrections, Bug Reports
+
+Please [create an issue](https://github.com/DCMLab/scarlatti_sonatas/issues) and/or feel free to fork and submit pull requests.
+
+## Cite as
+
+_Johannes Hentschel, Yannis Rammos, Markus Neuwirth, & Martin Rohrmeier. (2025). Domenico Scarlatti – Keyboard Sonatas [Data set]. Zenodo. https://doi.org/{{ concept_doi }}_
+
+## License
+
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)).
+
+![cc-by-nc-sa-image](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)
+
+## Scores
 
 The following sonatas have been typeset by Tom Schreyer: K003, K004, K005, K006, K007, K008, K009, K010, K011, K012, K013, K014, K017, K018, K019, K020, K021, K022, K025, K027, K031, K033, K037, K039, K040, K044, K046, K047, K049, K051, K052, K053, K054, K056, K057, K059, K061, K062, K065, K066, K067, K068, K069, K071, K072, K074, K075, K092, K094, K095, K096, K097, K099, K100
 
