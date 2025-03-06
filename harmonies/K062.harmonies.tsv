@@ -13,7 +13,7 @@ mc	mn	quarterbeats	quarterbeats_all_endings	duration_qb	mc_onset	mn_onset	timesi
 15	15	21	21	0.5	0	0	3/8	2	1	V(6)		A	i		V(6)	V			6				M	0	1	1, 5, -3		1	1
 15	15	43/2	43/2	1.0	1/8	1/8	3/8	2	1	V		A	i		V	V							M	0	1	1, 5, 2		1	1
 16	16	45/2	45/2	1.5	0	0	3/8	2	1	viio7/V		A	i		viio7/V	vii	o	7		V			o7	0	1	6, 3, 0, -3		6	6
-17	17	24	24	0.5	0	0	3/8	2	1	V(6)		A	i		V(6)	V			6				M	0	1	1, 5, -3		1	1
+17	17	24	24	0.5	0	0	3/8	2	1	V(6)}		A	i		V(6)	V			6			}	M	0	1	1, 5, -3		1	1
 17	17	49/2	49/2	1.0	1/8	1/8	3/8	2	1	V		A	i		V	V							M	0	1	1, 5, 2		1	1
 18	18	51/2	51/2	1.5	0	0	3/8	2	1	#viio7/iv{		A	i		#viio7/iv	#vii	o	7		iv		{	o7	0	1	4, 1, -2, -5		4	4
 19	19	27	27	0.5	0	0	3/8	2	1	iv(b64)		A	i		iv(b64)	iv			b64				m	0	1	-1, -2, -5		-1	-1
@@ -61,7 +61,9 @@ mc	mn	quarterbeats	quarterbeats_all_endings	duration_qb	mc_onset	mn_onset	timesi
 47	47	70	70	0.5	1/4	1/4	3/8	2	1	IV		A	V		IV	IV							M	0	0	-1, 3, 0		-1	-1
 48	48	141/2	141/2	1.0	0	0	3/8	2	1	V(64)		A	V		V(64)	V			64				M	0	0	1, 0, 4		1	1
 48	48	143/2	143/2	0.5	1/4	1/4	3/8	2	1	V7		A	V		V7	V		7					Mm7	0	0	1, 5, 2, -1		1	1
-49	49	72	72	13.5	0	0	3/8	2	1	I|PAC}		A	V		I	I					PAC	}	M	0	0	0, 4, 1		0	0
+49	49	72	72	1.0	0	0	3/8	2	1	I|PAC}		A	V		I	I					PAC	}	M	0	0	0, 4, 1		0	0
+49	49	73	73	0.5	1/4	1/4	3/8	2	1	viio		A	V		viio	vii	o						o	0	0	5, 2, -1		5	5
+50	50	147/2	147/2	12.0	0	0	3/8	2	1	I		A	V		I	I							M	0	0	0, 4, 1		0	0
 52	52	153/2	153/2	0.0	0	0	3/8	2	1	{		A	V									{		0	0				
 57	57	84	84	0.0	0	0	3/8	2	1	}		A	V									}		0	0				
 58	58	171/2	171/2	1.5	0	0	3/8	2	1	i.#viio7{		A	i		#viio7	#vii	o	7				{	o7	0	1	5, 2, -1, -4		5	5
