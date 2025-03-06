@@ -1,9 +1,8 @@
 Warnings encountered during the last execution of ms3 review
 ============================================================
 
-DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 93, '1/4', '#viio') ms3.Parse.scarlatti_sonatas.K036 --
-	The label '#viio' in m. 93, onset 1/4 (MC 93, onset 1/4)
-	                seems not to correspond well to the score (which does not necessarily mean it is wrong).
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 93, '1/4', '#viio') ms3.Parse.scarlatti_sonatas.K036
+	The label '#viio' in m. 93, onset 1/4 (MC 93, onset 1/4) seems not to correspond well to the score (which does not necessarily mean it is wrong).
 	In the context of a.i, it expresses the scale degrees
 	('#7', '2', '4') [('G#', 'B', 'D')].
 	The corresponding score segment has 0 within-label and 2 out-of-label note onsets,

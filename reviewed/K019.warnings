@@ -1,9 +1,9 @@
 Warnings encountered during the last execution of ms3 review
 ============================================================
 
-FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.scarlatti_sonatas.K019 --
-	No metronome mark found in the very first measure nor anywhere else in the score.
-DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.scarlatti_sonatas.K019 --
+FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.scarlatti_sonatas.K019
+	No metronome mark found in the first measure nor anywhere else in the score.
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.scarlatti_sonatas.K019
 	Phrase beginning and endings don't match:
 	mn_playthrough phraseend mn_playthrough phraseend
 	            1a         {             8a         }
@@ -42,9 +42,8 @@ DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.scarlatti_sonatas.K019 --
 	           NaN       NaN            79b         }
 	           NaN       NaN            86b        }{
 	           NaN       NaN            90b         }
-DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 89, '3/8', 'V6') ms3.Parse.scarlatti_sonatas.K019 --
-	The label 'V6' in m. 88, onset 3/8 (MC 89, onset 3/8)
-	                seems not to correspond well to the score (which does not necessarily mean it is wrong).
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 89, '3/8', 'V6') ms3.Parse.scarlatti_sonatas.K019
+	The label 'V6' in m. 88, onset 3/8 (MC 89, onset 3/8) seems not to correspond well to the score (which does not necessarily mean it is wrong).
 	In the context of f.i, it expresses the scale degrees
 	('#7', '2', '5') [('E', 'G', 'C')].
 	The corresponding score segment has 1 within-label and 2 out-of-label note onsets,

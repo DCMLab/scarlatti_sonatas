@@ -1,11 +1,10 @@
 Warnings encountered during the last execution of ms3 review
 ============================================================
 
-FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.scarlatti_sonatas.K014 --
-	No metronome mark found in the very first measure nor anywhere else in the score.
-DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 25, '9/8', 'vi.iio6') ms3.Parse.scarlatti_sonatas.K014 --
-	The label 'vi.iio6' in m. 23, onset 9/8 (MC 25, onset 9/8)
-	                seems not to correspond well to the score (which does not necessarily mean it is wrong).
+FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.scarlatti_sonatas.K014
+	No metronome mark found in the first measure nor anywhere else in the score.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 25, '9/8', 'vi.iio6') ms3.Parse.scarlatti_sonatas.K014
+	The label 'vi.iio6' in m. 23, onset 9/8 (MC 25, onset 9/8) seems not to correspond well to the score (which does not necessarily mean it is wrong).
 	In the context of G.vi, it expresses the scale degrees
 	('4', '6', '2') [('A', 'C', 'F#')].
 	The corresponding score segment has 1 within-label and 3 out-of-label note onsets,

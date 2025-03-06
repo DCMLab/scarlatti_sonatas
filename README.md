@@ -100,4 +100,4 @@ The following sonatas have been typeset by Tom Schreyer: K003, K004, K005, K006,
 |K100     |      50|   144|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
 
 
-*Overview table automatically updated using [ms3](https://johentsch.github.io/ms3/).*
+*Overview table automatically updated using [ms3](https://ms3.readthedocs.io/).*

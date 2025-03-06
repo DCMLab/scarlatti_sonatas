@@ -30,8 +30,17 @@
       },
       {
         "name": "quarterbeats",
-        "title": "Offset from Beginning",
+        "title": "Offset from Beginning (leaving out alternative endings)",
         "description": "Distance of an event from the piece's beginning. By default, only second endings are taken into account to reflect the proportions of a simply playthrough without repeats.",
+        "type": "string",
+        "constraints": {
+          "pattern": "\\d+(?:\\/\\d+)?"
+        }
+      },
+      {
+        "name": "quarterbeats_all_endings",
+        "title": "Offset from Beginning (counting through alternative endings as if they were adjacent bars)",
+        "description": "Distance from the piece's beginning, taking all endings into account for addressability purposes.",
         "type": "string",
         "constraints": {
           "pattern": "\\d+(?:\\/\\d+)?"
@@ -217,19 +226,22 @@
       }
     ],
     "facet": "harmonies",
-    "identifier": "bYhR1pxnWSeesQ",
-    "filepath": "harmonies/bYhR1pxnWSeesQ.schema.yaml"
+    "identifier": "ZLE3uVqfbehWIw",
+    "filepath": "harmonies/ZLE3uVqfbehWIw.schema.yaml",
+    "used_in": "K052"
   },
   "creator": {
     "@context": "https://schema.org/",
     "@type": "SoftwareApplication",
-    "@id": "https://github.com/johentsch/ms3",
+    "@id": "https://pypi.org/project/ms3/",
     "name": "ms3",
     "description": "A parser for MuseScore 3 files and data factory for annotated music corpora.",
     "author": {
       "name": "Johannes Hentschel",
       "@id": "https://orcid.org/0000-0002-1986-9545"
     },
-    "softwareVersion": "2.1.0"
-  }
+    "softwareVersion": "2.5.4"
+  },
+  "git_revision": "c6a1e269d198087578b905f603d2aa29722216ab",
+  "git_tag": "v2.1-2-gc6a1e26"
 }

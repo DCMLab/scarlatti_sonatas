@@ -1,15 +1,15 @@
 Warnings encountered during the last execution of ms3 review
 ============================================================
 
-FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.scarlatti_sonatas.K011 --
-	No metronome mark found in the very first measure nor anywhere else in the score.
-DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.scarlatti_sonatas.K011 --
+FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.scarlatti_sonatas.K011
+	No metronome mark found in the first measure nor anywhere else in the score.
+DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.scarlatti_sonatas.K011
 	propagate_pedal() failed with
 	2 organ points started, 1 ended:
 	   mc pedal    mc pedalend
 	0   5     V     8        ]
 	1  21     V  <NA>      NaN
-DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.scarlatti_sonatas.K011 --
+DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.scarlatti_sonatas.K011
 	propagate_pedal() failed with
 	2 organ points started, 1 ended:
 	   mc pedal    mc pedalend
