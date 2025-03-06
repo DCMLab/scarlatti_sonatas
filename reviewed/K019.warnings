@@ -1,46 +1,44 @@
 Warnings encountered during the last execution of ms3 review
 ============================================================
 
-FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.scarlatti_sonatas.K019
-	No metronome mark found in the first measure nor anywhere else in the score.
 DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.scarlatti_sonatas.K019
 	Phrase beginning and endings don't match:
 	mn_playthrough phraseend mn_playthrough phraseend
-	            1a         {             8a         }
-	            8a         {            12a         }
-	           12a         {            16a         }
-	           25a        }{            25a        }{
-	           31a        }{            31a        }{
-	            1b         {            36a         }
-	            8b         {             8b         }
-	           12b         {            12b         }
-	           25b        }{            16b         }
-	           31b        }{            25b        }{
-	           38b         {            31b        }{
-	           42a         {            36b         }
-	           46a         {            42a         }
-	           50a         {            46a         }
-	           54a         {            50a         }
-	           59a         {            54a         }
-	           62a        }{            57a         }
-	           65a        }{            62a        }{
-	           70a         {            65a        }{
-	           74a         {            70a         }
-	           80a         {            74a         }
-	           86a        }{            79a         }
-	           42b         {            86a        }{
-	           46b         {            90a         }
-	           50b         {            42b         }
-	           54b         {            46b         }
-	           59b         {            50b         }
-	           62b        }{            54b         }
-	           65b        }{            57b         }
-	           70b         {            62b        }{
-	           74b         {            65b        }{
-	           80b         {            70b         }
-	           86b        }{            74b         }
-	           NaN       NaN            79b         }
-	           NaN       NaN            86b        }{
+	            1a         {             4a         }
+	            5a         {             8a         }
+	            8a         {            16a         }
+	           18a         {            25a        }{
+	           25a        }{            31a        }{
+	           31a        }{            36a         }
+	            1b         {             4b         }
+	            5b         {             8b         }
+	            8b         {            16b         }
+	           18b         {            25b        }{
+	           25b        }{            31b        }{
+	           31b        }{            36b         }
+	           38b         {            42a         }
+	           42a         {            46a         }
+	           46a         {            50a         }
+	           50a         {            54a         }
+	           54a         {            57a         }
+	           59a         {            62a        }{
+	           62a        }{            65a        }{
+	           65a        }{            70a         }
+	           70a         {            74a         }
+	           74a         {            79a         }
+	           80a         {            86a        }{
+	           86a        }{            90a         }
+	           42b         {            42b         }
+	           46b         {            46b         }
+	           50b         {            50b         }
+	           54b         {            54b         }
+	           59b         {            57b         }
+	           62b        }{            62b        }{
+	           65b        }{            65b        }{
+	           70b         {            70b         }
+	           74b         {            74b         }
+	           80b         {            79b         }
+	           86b        }{            86b        }{
 	           NaN       NaN            90b         }
 DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 89, '3/8', 'V6') ms3.Parse.scarlatti_sonatas.K019
 	The label 'V6' in m. 88, onset 3/8 (MC 89, onset 3/8) seems not to correspond well to the score (which does not necessarily mean it is wrong).
