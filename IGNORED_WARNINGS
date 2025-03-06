@@ -20,3 +20,6 @@ DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 43, '1/2', 'iv/ii') ms3.Parse.
 
 DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 54, '0', 'I[#viio') ms3.Parse.scarlatti_sonatas.K052
 	The label 'I[#viio' in m. 53, onset 0 (MC 54, onset 0) is briefly on the first beat of the pedal point
+
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 17, '1/8', 'V') ms3.Parse.scarlatti_sonatas.K062
+	The label 'V' in m. 17, onset 1/8 (MC 17, onset 1/8) is the resolution chord 
