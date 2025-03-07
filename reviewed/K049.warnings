@@ -1,0 +1,52 @@
+Warnings encountered during the last execution of ms3 review
+============================================================
+
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.scarlatti_sonatas.K049
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             6a         }
+	            6a         {            12a         }
+	           12a         {            17a         }
+	           17a         {            23a         }
+	           23a         {            29a        }{
+	           29a        }{            34a        }{
+	           34a        }{            39a         }
+	           44a         {            49a         }
+	            1b         {             6b         }
+	            6b         {            12b         }
+	           12b         {            17b         }
+	           17b         {            23b         }
+	           23b         {            29b        }{
+	           29b        }{            34b        }{
+	           34b        }{            39b         }
+	           44b         {            49b        }{
+	           49b        }{            54a        }{
+	           54a        }{            62a         }
+	           62a         {            66a         }
+	           66a         {            80a        }{
+	           71a         {            86a         }
+	           80a        }{            92a         }
+	           86a         {            98a        }{
+	           92a         {           103a        }{
+	           98a        }{           108a         }
+	          103a        }{           118a         }
+	          113a         {            49c        }{
+	           49c        }{            54b        }{
+	           54b        }{            62b         }
+	           62b         {            66b         }
+	           66b         {            80b        }{
+	           71b         {            86b         }
+	           80b        }{            92b         }
+	           86b         {            98b        }{
+	           92b         {           103b        }{
+	           98b        }{           108b         }
+	          103b        }{           118b         }
+	          113b         {            NaN       NaN
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 58, '0', 'V65') ms3.Parse.scarlatti_sonatas.K049
+	The label 'V65' in m. 56, onset 0 (MC 58, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of C.iii, it expresses the scale degrees
+	('#7', '2', '4', '5') [('D#', 'F#', 'A', 'B')].
+	The corresponding score segment has 1 within-label and 12 out-of-label note onsets,
+	a ratio of 0.9230769230769231 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
