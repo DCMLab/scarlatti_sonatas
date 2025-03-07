@@ -1,0 +1,7 @@
+Warnings encountered during the last execution of ms3 review
+============================================================
+
+DCML_HARMONY_SYNTAX_WARNING (15,) ms3.Parse.scarlatti_sonatas.K062
+	Score contains 1 labels that don't (and 128 that do) match the DCML standard:
+	    mc  mn          label harmony_layer
+	63  50  50  empty_harmony             1
