@@ -219,6 +219,12 @@
           <StaffText>
             <text>Allegro</text>
             </StaffText>
+          <Tempo>
+            <tempo>2.1333333333333333</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 128</b></text>
+            </Tempo>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -4881,7 +4887,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V[iio6{-V[iv{</name>
+            <name>V[iv{</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
@@ -4914,7 +4920,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio6-iv</name>
+            <name>iv]</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>

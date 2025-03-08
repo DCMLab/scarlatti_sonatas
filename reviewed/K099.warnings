@@ -1,11 +1,10 @@
 Warnings encountered during the last execution of ms3 review
 ============================================================
 
-FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.scarlatti_sonatas.K099 --
-	No metronome mark found in the very first measure nor anywhere else in the score.
-DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 29, '1/8', 'V7/V') ms3.Parse.scarlatti_sonatas.K099 --
-	The label 'V7/V' in m. 29, onset 1/8 (MC 29, onset 1/8)
-	                seems not to correspond well to the score (which does not necessarily mean it is wrong).
+FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.scarlatti_sonatas.K099
+	No metronome mark found in the first measure nor anywhere else in the score.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 29, '1/8', 'V7/V') ms3.Parse.scarlatti_sonatas.K099
+	The label 'V7/V' in m. 29, onset 1/8 (MC 29, onset 1/8) seems not to correspond well to the score (which does not necessarily mean it is wrong).
 	In the context of c.v, it expresses the scale degrees
 	('2', '#4', '#6', '1') [('A', 'C#', 'E', 'G')].
 	The corresponding score segment has 4 within-label and 11 out-of-label note onsets,

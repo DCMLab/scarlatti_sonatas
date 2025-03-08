@@ -104,6 +104,7 @@
     <metaTag name="P86 (composer)">Q167837</metaTag>
     <metaTag name="annotators">unknown (0.0.0), Davor Krkljus (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
+    <metaTag name="compared_against">LATEST_VERSION</metaTag>
     <metaTag name="composed_end">1742</metaTag>
     <metaTag name="composed_source">Kirkpatrick Catalogue</metaTag>
     <metaTag name="composed_start">1742</metaTag>
@@ -218,6 +219,12 @@
           <StaffText>
             <text>Allegro</text>
             </StaffText>
+          <Tempo>
+            <tempo>2.7000000000000002</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"></font> <b><font face="Edwin"></font> = 108</b></text>
+            </Tempo>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -4840,6 +4847,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio/bVII</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio/bVII</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -7158,6 +7171,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <dots>1</dots>

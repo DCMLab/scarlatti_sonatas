@@ -104,6 +104,7 @@
     <metaTag name="P86 (composer)">Q167837</metaTag>
     <metaTag name="annotators">unknown, Adrian Nagel (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
+    <metaTag name="compared_against">LATEST_VERSION</metaTag>
     <metaTag name="composed_end">1739</metaTag>
     <metaTag name="composed_source">Kirkpatrick Catalogue</metaTag>
     <metaTag name="composed_start">1738</metaTag>
@@ -219,6 +220,12 @@
           <StaffText>
             <text>Allegro</text>
             </StaffText>
+          <Tempo>
+            <tempo>2.1333333333333333</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 128</b></text>
+            </Tempo>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -4975,6 +4982,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V[iio6{-V[iv{</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V[iv{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
@@ -5008,6 +5021,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iio6-iv</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv]</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>

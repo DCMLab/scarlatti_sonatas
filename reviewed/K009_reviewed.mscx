@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision></programRevision>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -104,6 +104,7 @@
     <metaTag name="P86 (composer)">Q167837</metaTag>
     <metaTag name="annotators">unknown (0.0.0), Sylvie Tran (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
+    <metaTag name="compared_against">LATEST_VERSION</metaTag>
     <metaTag name="composed_end">1739</metaTag>
     <metaTag name="composed_source">Kirkpatrick Catalogue</metaTag>
     <metaTag name="composed_start">1738</metaTag>
@@ -220,6 +221,12 @@
             <offset x="-1.74157" y="-4.92201"/>
             <text>Allegro</text>
             </StaffText>
+          <Tempo>
+            <tempo>2.7000000000000002</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"></font> <b><font face="Edwin"></font> = 108</b></text>
+            </Tempo>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -6392,6 +6399,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I6}</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>

@@ -219,6 +219,12 @@
             <offset x="-7.62692" y="-6.16912"/>
             <text>Allegro</text>
             </StaffText>
+          <Tempo>
+            <tempo>1.8</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 108</b></text>
+            </Tempo>
           <Chord>
             <durationType>32nd</durationType>
             <Spanner type="Slur">
@@ -759,8 +765,11 @@
               </Spanner>
             <appoggiatura/>
             <Note>
-              <pitch>75</pitch>
-              <tpc>11</tpc>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -8650,7 +8659,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V|HC</name>
+            <name>V|HC}</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
@@ -8662,7 +8671,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i{</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
@@ -8795,7 +8804,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i(64)}</name>
+            <name>i(64)</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
@@ -8807,13 +8816,6 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>{</name>
             </Harmony>
           </voice>
         </Measure>
@@ -8951,7 +8953,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I6-iii{</name>
+            <name>I6{</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
@@ -9523,7 +9525,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I|PAC</name>
+            <name>I|PAC}{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -9969,7 +9971,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i(64)}</name>
+            <name>i(64)</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
@@ -9981,13 +9983,6 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>{</name>
             </Harmony>
           </voice>
         </Measure>
@@ -10898,7 +10893,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i(64)}</name>
+            <name>i(64)</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
@@ -10910,13 +10905,6 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>{</name>
             </Harmony>
           </voice>
         </Measure>
@@ -11504,8 +11492,11 @@
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
-              <pitch>51</pitch>
-              <tpc>11</tpc>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
               </Note>
             </Chord>
           </voice>
@@ -11742,6 +11733,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>

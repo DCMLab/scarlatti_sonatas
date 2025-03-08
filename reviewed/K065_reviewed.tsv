@@ -28,7 +28,7 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	offset_x	offset_y	minDistance	
 19	19	1/4	1/4	3/8	2	1	V.ii%65						A	V		ii%65		ii	%	65					%7	0	0	3, 0, 4, 6		6	3	0	4	0.0	0.0	0.375	0.0
 20	20	0	0	3/8	2	1	V						A	V		V		V							M	0	0	5, 9, 6		5	5	0	4	0.0	0.0	0.25	0.0
 20	20	1/8	1/8	3/8	2	1	iv6						A	V		iv6		iv		6					m	0	0	0, 4, 3		3	0	0	2	0.0	0.0	0.125	0.0
-20	20	3/16	3/16	3/8	2	1	#viio/bVII						A	V		#viio/bVII		#vii	o			bVII			o	0	0	7, 4, 1		7	7	0	2	0.0	0.0	0.125	0.0
+20	20	3/16	3/16	3/8	2	1	viio/bVII						A	V		viio/bVII		vii	o			bVII			o	0	0	7, 4, 1		7	7	0	2	0.0	0.0	0.125	0.0
 20	20	1/4	1/4	3/8	2	1	bVII						A	V		bVII		bVII							M	0	0	2, 6, 3		2	2	1	1	0.5	0.0625	0.0625	0.5
 20	20	5/16	5/16	3/8	2	1	viio						A	V		viio		vii	o						o	0	0	9, 6, 3		9	9	0	2	0.0	0.0	0.125	0.0
 21	21	0	0	3/8	2	1	I						A	V		I		I							M	0	0	4, 8, 5		4	4	0	3	0.0	0.0	0.25	0.0
@@ -132,4 +132,4 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	offset_x	offset_y	minDistance	
 73	73	0	0	3/8	2	1	ii						A	I		ii		ii							m	0	0	5, 2, 6		5	5	0	3	0.0	0.0	0.25	0.0
 73	73	1/8	1/8	3/8	2	1	I						A	I		I		I							M	0	0	3, 7, 4		3	3	0	3	0.0	0.0	0.25	0.0
 73	73	1/4	1/4	3/8	2	1	V						A	I		V		V							M	0	0	4, 8, 5		4	4	0	3	0.0	0.0	0.25	0.0
-74	74	0	0	3/8	2	1	I						A	I		I		I							M	0	0	3, 7, 4		3	3	1	2	0.3333333333333333	0.0	0.75	0.0
+74	74	0	0	3/8	2	1	I}						A	I		I		I						}	M	0	0	3, 7, 4		3	3	1	2	0.3333333333333333	0.0	0.75	0.0

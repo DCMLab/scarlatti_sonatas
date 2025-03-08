@@ -104,6 +104,7 @@
     <metaTag name="P86 (composer)">Q167837</metaTag>
     <metaTag name="annotators">unknown (0.0.0), Davor Krkljus (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
+    <metaTag name="compared_against">LATEST_VERSION</metaTag>
     <metaTag name="composed_end">1742</metaTag>
     <metaTag name="composed_source">Kirkpatrick Catalogue</metaTag>
     <metaTag name="composed_start">1742</metaTag>
@@ -219,6 +220,12 @@
             <offset x="-2.04891" y="-7.25963"/>
             <text>Con Spirito (Parme: Allegro con spirito)</text>
             </StaffText>
+          <Tempo>
+            <tempo>2.5500000000000003</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"></font> <b><font face="Edwin"></font> = 102</b></text>
+            </Tempo>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -11898,6 +11905,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i.V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i.V{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -14321,6 +14334,11 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            <color r="0" g="85" b="0" a="255"/>
+            </Harmony>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/2</duration>
@@ -14329,6 +14347,11 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>}</name>
+            <color r="0" g="85" b="0" a="255"/>
+            </Harmony>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/2</duration>

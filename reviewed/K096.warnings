@@ -1,50 +1,46 @@
 Warnings encountered during the last execution of ms3 review
 ============================================================
 
-FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.scarlatti_sonatas.K096 --
-	No metronome mark found in the very first measure nor anywhere else in the score.
-ERROR    ms3.Parse.scarlatti_sonatas.K096 --
+FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.scarlatti_sonatas.K096
+	No metronome mark found in the first measure nor anywhere else in the score.
+ERROR    ms3.Parse.scarlatti_sonatas.K096
 	% is a seventh chord and cannot have figbass '6'
-WARNING  ms3.Parse.scarlatti_sonatas.K096 --
-	MC 75: ii%6(9)/i: % requires figbass (7, 65, 43, or 2) since it specifies a chord's seventh.
-WARNING  ms3.Parse.scarlatti_sonatas.K096 --
+WARNING  ms3.Parse.scarlatti_sonatas.K096
 	MC 68: ii%6(9)/i: % requires figbass (7, 65, 43, or 2) since it specifies a chord's seventh.
-ERROR    ms3.Parse.scarlatti_sonatas.K096 --
+WARNING  ms3.Parse.scarlatti_sonatas.K096
+	MC 75: ii%6(9)/i: % requires figbass (7, 65, 43, or 2) since it specifies a chord's seventh.
+ERROR    ms3.Parse.scarlatti_sonatas.K096
 	% is a seventh chord and cannot have figbass '6'
-WARNING  ms3.Parse.scarlatti_sonatas.K096 --
-	MC 75: ii%6(9)/i: % requires figbass (7, 65, 43, or 2) since it specifies a chord's seventh.
-WARNING  ms3.Parse.scarlatti_sonatas.K096 --
+WARNING  ms3.Parse.scarlatti_sonatas.K096
 	MC 68: ii%6(9)/i: % requires figbass (7, 65, 43, or 2) since it specifies a chord's seventh.
-DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 68, '0', 'ii%6(9)/i') ms3.Parse.scarlatti_sonatas.K096 --
-	The label 'ii%6(9)/i' in m. 68, onset 0 (MC 68, onset 0)
-	                seems not to correspond well to the score (which does not necessarily mean it is wrong).
+WARNING  ms3.Parse.scarlatti_sonatas.K096
+	MC 75: ii%6(9)/i: % requires figbass (7, 65, 43, or 2) since it specifies a chord's seventh.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 68, '0', 'ii%6(9)/i') ms3.Parse.scarlatti_sonatas.K096
+	The label 'ii%6(9)/i' in m. 68, onset 0 (MC 68, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
 	In the context of D.V, it expresses the scale degrees
 	() [()].
 	The corresponding score segment has 0 within-label and 5 out-of-label note onsets,
 	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
 	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
 	by a free-text comment in subsequent lines starting with a space or tab.
-DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 68, '1/8', 'ii%65(b8)/i') ms3.Parse.scarlatti_sonatas.K096 --
-	The label 'ii%65(b8)/i' in m. 68, onset 1/8 (MC 68, onset 1/8)
-	                seems not to correspond well to the score (which does not necessarily mean it is wrong).
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 68, '1/8', 'ii%65(b8)/i') ms3.Parse.scarlatti_sonatas.K096
+	The label 'ii%65(b8)/i' in m. 68, onset 1/8 (MC 68, onset 1/8) seems not to correspond well to the score (which does not necessarily mean it is wrong).
 	In the context of D.V, it expresses the scale degrees
 	('4', 'b6', '1', '2') [('D', 'F', 'A', 'B')].
 	The corresponding score segment has 0 within-label and 1 out-of-label note onsets,
 	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
 	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
 	by a free-text comment in subsequent lines starting with a space or tab.
-DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 75, '0', 'ii%6(9)/i') ms3.Parse.scarlatti_sonatas.K096 --
-	The label 'ii%6(9)/i' in m. 75, onset 0 (MC 75, onset 0)
-	                seems not to correspond well to the score (which does not necessarily mean it is wrong).
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 75, '0', 'ii%6(9)/i') ms3.Parse.scarlatti_sonatas.K096
+	The label 'ii%6(9)/i' in m. 75, onset 0 (MC 75, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
 	In the context of D.V, it expresses the scale degrees
 	() [()].
 	The corresponding score segment has 0 within-label and 5 out-of-label note onsets,
 	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
 	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
 	by a free-text comment in subsequent lines starting with a space or tab.
-DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 75, '1/8', 'ii%65(b8)/i') ms3.Parse.scarlatti_sonatas.K096 --
-	The label 'ii%65(b8)/i' in m. 75, onset 1/8 (MC 75, onset 1/8)
-	                seems not to correspond well to the score (which does not necessarily mean it is wrong).
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 75, '1/8', 'ii%65(b8)/i') ms3.Parse.scarlatti_sonatas.K096
+	The label 'ii%65(b8)/i' in m. 75, onset 1/8 (MC 75, onset 1/8) seems not to correspond well to the score (which does not necessarily mean it is wrong).
 	In the context of D.V, it expresses the scale degrees
 	('4', 'b6', '1', '2') [('D', 'F', 'A', 'B')].
 	The corresponding score segment has 0 within-label and 1 out-of-label note onsets,

@@ -1,11 +1,10 @@
 Warnings encountered during the last execution of ms3 review
 ============================================================
 
-FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.scarlatti_sonatas.K006 --
-	No metronome mark found in the very first measure nor anywhere else in the score.
-DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 70, '0', 'iv') ms3.Parse.scarlatti_sonatas.K006 --
-	The label 'iv' in m. 70, onset 0 (MC 70, onset 0)
-	                seems not to correspond well to the score (which does not necessarily mean it is wrong).
+FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.scarlatti_sonatas.K006
+	No metronome mark found in the first measure nor anywhere else in the score.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 70, '0', 'iv') ms3.Parse.scarlatti_sonatas.K006
+	The label 'iv' in m. 70, onset 0 (MC 70, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
 	In the context of F.I, it expresses the scale degrees
 	('4', 'b6', '1') [('Bb', 'Db', 'F')].
 	The corresponding score segment has 1 within-label and 3 out-of-label note onsets,

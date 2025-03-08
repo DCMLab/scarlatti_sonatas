@@ -1,9 +1,8 @@
 Warnings encountered during the last execution of ms3 review
 ============================================================
 
-DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 106, '0', 'i|PAC}') ms3.Parse.scarlatti_sonatas.K050 --
-	The label 'i|PAC}' in m. 106, onset 0 (MC 106, onset 0)
-	                seems not to correspond well to the score (which does not necessarily mean it is wrong).
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 106, '0', 'i|PAC}') ms3.Parse.scarlatti_sonatas.K050
+	The label 'i|PAC}' in m. 106, onset 0 (MC 106, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
 	In the context of f.III, it expresses the scale degrees
 	('1', 'b3', '5') [('Ab', 'Cb', 'Eb')].
 	The corresponding score segment has 0 within-label and 2 out-of-label note onsets,

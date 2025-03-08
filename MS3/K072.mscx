@@ -216,6 +216,12 @@
           <StaffText>
             <text>Allegro</text>
             </StaffText>
+          <Tempo>
+            <tempo>2.1333333333333333</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 128</b></text>
+            </Tempo>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -6512,7 +6518,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I.I6</name>
+            <name>I.I6{</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>

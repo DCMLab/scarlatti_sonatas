@@ -218,6 +218,12 @@
           <StaffText>
             <text>Allegro</text>
             </StaffText>
+          <Tempo>
+            <tempo>2.7000000000000002</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/> <b><font face="Edwin"/> = 108</b></text>
+            </Tempo>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -4816,7 +4822,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio/bVII</name>
+            <name>viio/bVII</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -7125,7 +7131,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>

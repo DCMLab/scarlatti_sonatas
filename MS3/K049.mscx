@@ -217,6 +217,12 @@
           <StaffText>
             <text>Presto</text>
             </StaffText>
+          <Tempo>
+            <tempo>4</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 120</b></text>
+            </Tempo>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -4666,12 +4672,8 @@
           </voice>
         </Measure>
       <Measure>
-        <startRepeat/>
         <noOffset>-2</noOffset>
         <voice>
-          <BarLine>
-            <subtype>start-repeat</subtype>
-            </BarLine>
           <Spanner type="Volta">
             <prev>
               <location>
@@ -4744,6 +4746,7 @@
           </voice>
         </Measure>
       <Measure>
+        <startRepeat/>
         <voice>
           <Spanner type="Volta">
             <prev>
@@ -10690,7 +10693,6 @@
           </voice>
         </Measure>
       <Measure>
-        <endRepeat>2</endRepeat>
         <voice>
           <Spanner type="Volta">
             <Volta>
@@ -10700,7 +10702,7 @@
               </Volta>
             <next>
               <location>
-                <measures>1</measures>
+                <measures>2</measures>
                 </location>
               </next>
             </Spanner>
@@ -10851,7 +10853,63 @@
           </voice>
         </Measure>
       <Measure>
-        <irregular>1</irregular>
+        <endRepeat>2</endRepeat>
+        <voice>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            </Clef>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <noOffset>-2</noOffset>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -10859,7 +10917,7 @@
           <Spanner type="Volta">
             <prev>
               <location>
-                <measures>-1</measures>
+                <measures>-2</measures>
                 </location>
               </prev>
             </Spanner>
@@ -11533,7 +11591,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio6(2)</name>
+            <name>viio6(2)</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -11553,7 +11611,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio6(^4)</name>
+            <name>viio6(^4)</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -11571,7 +11629,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio6</name>
+            <name>viio6</name>
             </Harmony>
           </voice>
         <voice>
@@ -13465,9 +13523,6 @@
         </Measure>
       <Measure>
         <voice>
-          <BarLine>
-            <subtype>start-repeat</subtype>
-            </BarLine>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V.I|PAC}{</name>
@@ -13725,7 +13780,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65</name>
+            <name>V65/iv</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -14453,7 +14508,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i/vi-vi}</name>
+            <name>i/vi}-vi}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -17454,6 +17509,32 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V.I</name>
+            </Harmony>
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
