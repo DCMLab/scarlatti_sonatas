@@ -132,7 +132,7 @@
     <metaTag name="typesetter">https://musescore.com/user/28622382</metaTag>
     <metaTag name="viaf">https://viaf.org/viaf/294383693/</metaTag>
     <metaTag name="wikidata">https://www.wikidata.org/wiki/Q74594848</metaTag>
-    <metaTag name="workNumber">K063</metaTag>
+    <metaTag name="workNumber">K.63</metaTag>
     <metaTag name="workTitle">Sonata</metaTag>
     <Part>
       <Staff id="1">
@@ -197,7 +197,16 @@
         </Instrument>
       </Part>
     <Staff id="1">
-      <VBox/>
+      <VBox>
+        <Text>
+          <style>Title</style>
+          <text>Sonata, K.63</text>
+          </Text>
+        <Text>
+          <style>Composer</style>
+          <text>Domenico Scarlatti</text>
+          </Text>
+        </VBox>
       <Measure>
         <voice>
           <KeySig>
