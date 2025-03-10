@@ -1,5 +1,5 @@
 ![Version](https://img.shields.io/github/v/release/DCMLab/scarlatti_sonatas?display_name=tag)
-[![DOI](https://zenodo.org/badge/{{ zenodo_badge_id }}.svg)](https://doi.org/{{ concept_doi }})
+[![DOI](https://zenodo.org/badge/467122531.svg)](https://doi.org/10.5281/zenodo.14992884)
 ![GitHub repo size](https://img.shields.io/github/repo-size/DCMLab/scarlatti_sonatas)
 ![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-9cf)
 
@@ -12,7 +12,7 @@ and serves as welcome page for both
 
 For information on how to obtain and use the dataset, please refer to [this documentation page](https://dcmlab.github.io/scarlatti_sonatas/introduction).
 
-# Domenico Scarlatti – Keyboard Sonatas
+# Domenico Scarlatti – Keyboard Sonatas (A corpus of annotated scores)
 
 
 ## Getting the data
@@ -60,13 +60,13 @@ every modern programming language.
 
 Since the TSV files contain null values, lists, fractions, and numbers that are to be treated as strings, you may want
 to use this code to load any TSV files related to this repository (provided you're doing it in Python). After a quick
-`pip install -U ms3` (requires Python 3.10) you'll be able to load any TSV like this:
+`pip install -U ms3` (requires Python 3.10 or later) you'll be able to load any TSV like this:
 
 ```python
 import ms3
 
 labels = ms3.load_tsv("harmonies/K001.harmonies.tsv")
-notes = ms3.load_tsv("notes/K001.notes.tsv"")
+notes = ms3.load_tsv("notes/K001.notes.tsv")
 ```
 
 
@@ -80,7 +80,7 @@ Please [create an issue](https://github.com/DCMLab/scarlatti_sonatas/issues) and
 
 ## Cite as
 
-_Johannes Hentschel, Yannis Rammos, Markus Neuwirth, & Martin Rohrmeier. (2025). Domenico Scarlatti – Keyboard Sonatas [Data set]. Zenodo. https://doi.org/{{ concept_doi }}_
+> Johannes Hentschel, Yannis Rammos, Markus Neuwirth, & Martin Rohrmeier. (2025). Domenico Scarlatti – Keyboard Sonatas (A corpus of annotated scores) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.14992884
 
 ## License
 
