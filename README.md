@@ -14,6 +14,21 @@ For information on how to obtain and use the dataset, please refer to [this docu
 
 # Domenico Scarlatti – Keyboard Sonatas (A corpus of annotated scores)
 
+This corpus of annotated [MuseScore](https://musescore.org) files has been created within  
+the [DCML corpus initiative](https://github.com/DCMLab/dcml_corpora) and employs  
+the [DCML harmony annotation standard](https://github.com/DCMLab/standards).  
+
+While Italian-Spanish composer Domenico Scarlatti enjoyed generous royal patronage  
+throughout his career, his compositions were not widely circulated during his own lifetime.  
+He is best known today for 555 concise, one-movement keyboard sonatas, admired for  
+their stylistic breadth and variety, for their theatrical dramatic charge, and for their prophetic  
+formal innovations.
+
+This corpus consists of 69 sonatas selected from the first 100 in Ralph Kirkpatrick's  
+chronological ordering. These earlier works display a comparatively restrained degree  
+of keyboard virtuosity and a considerable influence from the sequence-driven harmonic  
+rhetoric of Vivaldi and Corelli. Taken alongside [our Corelli repository](https://github.com/DCMLab/corelli), these data will  
+provide rich material for study of the Italian Baroque precedents of sonata-allegro form.
 
 ## Getting the data
 
