@@ -1,5 +1,5 @@
 ![Version](https://img.shields.io/github/v/release/DCMLab/scarlatti_sonatas?display_name=tag)
-[![DOI](https://zenodo.org/badge/{{ zenodo_badge_id }}.svg)](https://doi.org/{{ concept_doi }})
+[![DOI](https://zenodo.org/badge/467122531.svg)](https://doi.org/10.5281/zenodo.14992884)
 ![GitHub repo size](https://img.shields.io/github/repo-size/DCMLab/scarlatti_sonatas)
 ![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-9cf)
 
@@ -12,8 +12,23 @@ and serves as welcome page for both
 
 For information on how to obtain and use the dataset, please refer to [this documentation page](https://dcmlab.github.io/scarlatti_sonatas/introduction).
 
-# Domenico Scarlatti – Keyboard Sonatas
+# Domenico Scarlatti – Keyboard Sonatas (A corpus of annotated scores)
 
+This corpus of annotated [MuseScore](https://musescore.org) files has been created within  
+the [DCML corpus initiative](https://github.com/DCMLab/dcml_corpora) and employs  
+the [DCML harmony annotation standard](https://github.com/DCMLab/standards).  
+
+While Italian-Spanish composer Domenico Scarlatti enjoyed generous royal patronage  
+throughout his career, his compositions were not widely circulated during his own lifetime.  
+He is best known today for 555 concise, one-movement keyboard sonatas, admired for  
+their stylistic breadth and variety, for their theatrical dramatic charge, and for their prophetic  
+formal innovations.
+
+This corpus consists of 69 sonatas selected from the first 100 in Ralph Kirkpatrick's  
+chronological ordering. These earlier works display a comparatively restrained degree  
+of keyboard virtuosity and a considerable influence from the sequence-driven harmonic  
+rhetoric of Vivaldi and Corelli. Taken alongside [our Corelli repository](https://github.com/DCMLab/corelli), these data will  
+provide rich material for study of the Italian Baroque precedents of sonata-allegro form.
 
 ## Getting the data
 
@@ -60,13 +75,13 @@ every modern programming language.
 
 Since the TSV files contain null values, lists, fractions, and numbers that are to be treated as strings, you may want
 to use this code to load any TSV files related to this repository (provided you're doing it in Python). After a quick
-`pip install -U ms3` (requires Python 3.10) you'll be able to load any TSV like this:
+`pip install -U ms3` (requires Python 3.10 or later) you'll be able to load any TSV like this:
 
 ```python
 import ms3
 
 labels = ms3.load_tsv("harmonies/K001.harmonies.tsv")
-notes = ms3.load_tsv("notes/K001.notes.tsv"")
+notes = ms3.load_tsv("notes/K001.notes.tsv")
 ```
 
 
@@ -80,7 +95,7 @@ Please [create an issue](https://github.com/DCMLab/scarlatti_sonatas/issues) and
 
 ## Cite as
 
-_Johannes Hentschel, Yannis Rammos, Markus Neuwirth, & Martin Rohrmeier. (2025). Domenico Scarlatti – Keyboard Sonatas [Data set]. Zenodo. https://doi.org/{{ concept_doi }}_
+> Johannes Hentschel, Yannis Rammos, Markus Neuwirth, & Martin Rohrmeier. (2025). Domenico Scarlatti – Keyboard Sonatas (A corpus of annotated scores) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.14992884
 
 ## License
 
@@ -149,7 +164,7 @@ The following sonatas have been typeset by Tom Schreyer: K003, K004, K005, K006,
 |K066     |      32|   182|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
 |K067     |      22|    88|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
 |K068     |     116|   157|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK, AB   |
-|K069     |      63|   162|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
+|K069     |      63|   170|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
 |K071     |      29|   133|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
 |K072     |      37|   135|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |
 |K074     |      40|    60|2.3.0   |unknown (0.0.0), Davor Krkljus (2.3.0)        |DK       |

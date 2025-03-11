@@ -55,7 +55,7 @@
     <metaTag name="typesetter">https://musescore.com/leandro15</metaTag>
     <metaTag name="viaf">https://viaf.org/viaf/293775750/</metaTag>
     <metaTag name="wikidata">https://www.wikidata.org/wiki/Q67199887</metaTag>
-    <metaTag name="workNumber">K002</metaTag>
+    <metaTag name="workNumber">K.2</metaTag>
     <metaTag name="workTitle">Sonata</metaTag>
     <Order id="orchestral" customized="1">
       <name>Orquestal</name>
@@ -118,16 +118,16 @@
           </StaffType>
         <defaultClef>F</defaultClef>
         </Staff>
-      <trackName>Piano</trackName>
-      <Instrument id="piano">
-        <longName>Piano</longName>
-        <shortName>Pno.</shortName>
-        <trackName>Piano</trackName>
+      <trackName>Harpsichord</trackName>
+      <Instrument id="harpsichord">
+        <longName>Harpsichord</longName>
+        <shortName>Hch.</shortName>
+        <trackName>Harpsichord</trackName>
         <minPitchP>21</minPitchP>
         <maxPitchP>108</maxPitchP>
         <minPitchA>21</minPitchA>
         <maxPitchA>108</maxPitchA>
-        <instrumentId>keyboard.piano</instrumentId>
+        <instrumentId>keyboard.harpsichord</instrumentId>
         <clef staff="2">F</clef>
         <Articulation>
           <velocity>100</velocity>
@@ -175,12 +175,6 @@
           <program value="6"/>
           <synti>Fluid</synti>
           </Channel>
-        <Channel name="harmony">
-          <controller ctrl="0" value="0"/>
-          <controller ctrl="32" value="1"/>
-          <program value="0"/>
-          <synti>Fluid</synti>
-          </Channel>
         </Instrument>
       </Part>
     <Staff id="1">
@@ -189,7 +183,7 @@
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Title</style>
-          <text>K.2</text>
+          <text>Sonata, K.2</text>
           </Text>
         <Text>
           <style>Subtitle</style>

@@ -123,7 +123,7 @@
     <metaTag name="typesetter">https://musescore.com/user/901466</metaTag>
     <metaTag name="viaf">https://viaf.org/viaf/179429301/</metaTag>
     <metaTag name="wikidata">https://www.wikidata.org/wiki/Q67199918</metaTag>
-    <metaTag name="workNumber">K087</metaTag>
+    <metaTag name="workNumber">K.87</metaTag>
     <metaTag name="workTitle">Sonata</metaTag>
     <Part>
       <Staff id="1">
@@ -139,16 +139,16 @@
           </StaffType>
         <defaultClef>F</defaultClef>
         </Staff>
-      <trackName>Piano</trackName>
-      <Instrument id="piano">
-        <longName>Piano</longName>
-        <shortName>Pno.</shortName>
-        <trackName>Piano</trackName>
+      <trackName>Harpsichord</trackName>
+      <Instrument id="harpsichord">
+        <longName>Harpsichord</longName>
+        <shortName>Hch.</shortName>
+        <trackName>Harpsichord</trackName>
         <minPitchP>21</minPitchP>
         <maxPitchP>108</maxPitchP>
         <minPitchA>21</minPitchA>
         <maxPitchA>108</maxPitchA>
-        <instrumentId>keyboard.piano</instrumentId>
+        <instrumentId>keyboard.harpsichord</instrumentId>
         <clef staff="2">F</clef>
         <Articulation>
           <velocity>100</velocity>
@@ -179,11 +179,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="0"/>
-          <synti>Fluid</synti>
-          </Channel>
-        <Channel name="harmony">
-          <program value="0"/>
+          <program value="6"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -194,7 +190,7 @@
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Title</style>
-          <text>K.87</text>
+          <text>Sonata, K.87</text>
           </Text>
         <Text>
           <style>Composer</style>

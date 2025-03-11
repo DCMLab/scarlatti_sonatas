@@ -126,7 +126,7 @@
     <metaTag name="typesetter">Tom Schreyer</metaTag>
     <metaTag name="viaf">https://viaf.org/viaf/294488827/</metaTag>
     <metaTag name="wikidata">https://www.wikidata.org/wiki/Q74594955</metaTag>
-    <metaTag name="workNumber">K065</metaTag>
+    <metaTag name="workNumber">K.65</metaTag>
     <metaTag name="workTitle">Sonata</metaTag>
     <Part>
       <Staff id="1">
@@ -143,16 +143,16 @@
         <defaultClef>F</defaultClef>
         <distOffset>4.47364</distOffset>
         </Staff>
-      <trackName>Piano</trackName>
-      <Instrument id="piano">
-        <longName>Piano</longName>
-        <shortName>Pno.</shortName>
-        <trackName>Piano</trackName>
+      <trackName>Harpsichord</trackName>
+      <Instrument id="harpsichord">
+        <longName>Harpsichord</longName>
+        <shortName>Hch.</shortName>
+        <trackName>Harpsichord</trackName>
         <minPitchP>21</minPitchP>
         <maxPitchP>108</maxPitchP>
         <minPitchA>21</minPitchA>
         <maxPitchA>108</maxPitchA>
-        <instrumentId>keyboard.piano</instrumentId>
+        <instrumentId>keyboard.harpsichord</instrumentId>
         <clef staff="2">F</clef>
         <Articulation>
           <velocity>100</velocity>
@@ -183,11 +183,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="0"/>
-          <synti>Fluid</synti>
-          </Channel>
-        <Channel name="harmony">
-          <program value="0"/>
+          <program value="6"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -203,7 +199,7 @@
           </Text>
         <Text>
           <style>Title</style>
-          <text>K.65</text>
+          <text>Sonata, K.65</text>
           </Text>
         </VBox>
       <Measure>
@@ -222,7 +218,7 @@
             <tempo>2.7000000000000002</tempo>
             <followText>1</followText>
             <visible>0</visible>
-            <text><b></b><font face="ScoreText"/> <b><font face="Edwin"/> = 108</b></text>
+            <text><b></b><font face="ScoreText"></font> <b><font face="Edwin"></font> = 108</b></text>
             </Tempo>
           <Beam>
             <StemDirection>down</StemDirection>

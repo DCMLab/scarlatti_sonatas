@@ -49,7 +49,7 @@
     <metaTag name="typesetter">Tom Schreyer</metaTag>
     <metaTag name="viaf">https://viaf.org/viaf/9587154387328230970001/</metaTag>
     <metaTag name="wikidata">https://www.wikidata.org/wiki/Q67199896</metaTag>
-    <metaTag name="workNumber">K013</metaTag>
+    <metaTag name="workNumber">K.13</metaTag>
     <metaTag name="workTitle">Sonata</metaTag>
     <Part>
       <Staff id="1">
@@ -66,16 +66,16 @@
         <defaultClef>F</defaultClef>
         <distOffset>4.19375</distOffset>
         </Staff>
-      <trackName>Piano</trackName>
-      <Instrument id="piano">
-        <longName>Piano</longName>
-        <shortName>Pno.</shortName>
-        <trackName>Piano</trackName>
+      <trackName>Harpsichord</trackName>
+      <Instrument id="harpsichord">
+        <longName>Harpsichord</longName>
+        <shortName>Hch.</shortName>
+        <trackName>Harpsichord</trackName>
         <minPitchP>21</minPitchP>
         <maxPitchP>108</maxPitchP>
         <minPitchA>21</minPitchA>
         <maxPitchA>108</maxPitchA>
-        <instrumentId>keyboard.piano</instrumentId>
+        <instrumentId>keyboard.harpsichord</instrumentId>
         <clef staff="2">F</clef>
         <Articulation>
           <velocity>100</velocity>
@@ -106,11 +106,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="0"/>
-          <synti>Fluid</synti>
-          </Channel>
-        <Channel name="harmony">
-          <program value="0"/>
+          <program value="6"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -126,7 +122,7 @@
           </Text>
         <Text>
           <style>Title</style>
-          <text>K.13</text>
+          <text>Sonata, K.13</text>
           </Text>
         </VBox>
       <Measure len="1/4">
